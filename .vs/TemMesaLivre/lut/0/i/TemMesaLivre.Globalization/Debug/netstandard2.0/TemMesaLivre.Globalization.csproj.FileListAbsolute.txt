@@ -1,0 +1,9 @@
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\b\TemMesaLivre.Globalization\Debug\netstandard2.0\TemMesaLivre.Globalization.deps.json
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\b\TemMesaLivre.Globalization\Debug\netstandard2.0\TemMesaLivre.Globalization.dll
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\b\TemMesaLivre.Globalization\Debug\netstandard2.0\TemMesaLivre.Globalization.pdb
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\TemMesaLivre.Globalization\Debug\netstandard2.0\TemMesaLivre.Globalization.csproj.CoreCompileInputs.cache
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\TemMesaLivre.Globalization\Debug\netstandard2.0\TemMesaLivre.Globalization.AssemblyInfoInputs.cache
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\TemMesaLivre.Globalization\Debug\netstandard2.0\TemMesaLivre.Globalization.AssemblyInfo.cs
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\TemMesaLivre.Globalization\Debug\netstandard2.0\TemMesaLivre.Globalization.csproj.CopyComplete
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\TemMesaLivre.Globalization\Debug\netstandard2.0\TemMesaLivre.Globalization.dll
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\TemMesaLivre.Globalization\Debug\netstandard2.0\TemMesaLivre.Globalization.pdb

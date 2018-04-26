@@ -1,0 +1,8 @@
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\b\TemMesaLivre.WebAPI\bin\TemMesaLivre.WebAPI.dll.config
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\b\TemMesaLivre.WebAPI\bin\TemMesaLivre.WebAPI.dll
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\b\TemMesaLivre.WebAPI\bin\TemMesaLivre.WebAPI.pdb
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\0_TemMesaLivre.WebAPI\Debug\0_TemMesaLivre.WebAPI.csprojResolveAssemblyReference.cache
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\0_TemMesaLivre.WebAPI\Debug\0_TemMesaLivre.WebAPI.csproj.CoreCompileInputs.cache
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\0_TemMesaLivre.WebAPI\Debug\0_TemMesaLivre.WebAPI.csproj.CopyComplete
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\0_TemMesaLivre.WebAPI\Debug\TemMesaLivre.WebAPI.dll
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\0_TemMesaLivre.WebAPI\Debug\TemMesaLivre.WebAPI.pdb

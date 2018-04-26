@@ -1,0 +1,2 @@
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\5_TemMesaLivre.WebSite\Debug\5_TemMesaLivre.WebSite.njsproj.CoreCompileInputs.cache
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\5_TemMesaLivre.WebSite\Debug\5_TemMesaLivre.WebSite.njsprojResolveAssemblyReference.cache

@@ -1,0 +1,9 @@
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\b\TemMesaLivre.Domain\Debug\netstandard2.0\TemMesaLivre.Domain.deps.json
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\b\TemMesaLivre.Domain\Debug\netstandard2.0\TemMesaLivre.Domain.dll
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\b\TemMesaLivre.Domain\Debug\netstandard2.0\TemMesaLivre.Domain.pdb
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\TemMesaLivre.Domain\Debug\netstandard2.0\TemMesaLivre.Domain.csproj.CoreCompileInputs.cache
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\TemMesaLivre.Domain\Debug\netstandard2.0\TemMesaLivre.Domain.AssemblyInfoInputs.cache
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\TemMesaLivre.Domain\Debug\netstandard2.0\TemMesaLivre.Domain.AssemblyInfo.cs
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\TemMesaLivre.Domain\Debug\netstandard2.0\TemMesaLivre.Domain.csproj.CopyComplete
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\TemMesaLivre.Domain\Debug\netstandard2.0\TemMesaLivre.Domain.dll
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\TemMesaLivre.Domain\Debug\netstandard2.0\TemMesaLivre.Domain.pdb

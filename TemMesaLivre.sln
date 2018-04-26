@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0_TemMesaLivre.WebAPI", "TemMesaLivre.WebAPI\0_TemMesaLivre.WebAPI.csproj", "{71D01EDB-2551-41EA-9C02-FE89F257C5C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_TemMesaLivre.Application", "TemMesaLivre.Application\1_TemMesaLivre.Application.csproj", "{2941A154-5AE2-4AA6-9497-B943FE8665E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemMesaLivre.Application.UnitTest", "TemMesaLivre.Application.UnitTest\TemMesaLivre.Application.UnitTest.csproj", "{39A11A17-EF72-4EE9-A90D-6764E2FE3FFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_TemMesaLivre.Data", "TemMesaLivre.Data\2_TemMesaLivre.Data.csproj", "{153D22D4-79E7-4C31-87B7-160D20A214E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_TemMesaLivre.Domain", "TemMesaLivre.Domain\3_TemMesaLivre.Domain.csproj", "{3E127B56-277C-4E19-84B0-7504E5AA323A}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "5_TemMesaLivre.WebSite", "TemMesaLivre.WebSite\5_TemMesaLivre.WebSite.njsproj", "{4BF218D6-5654-4C21-A425-B4A6CE989F2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{30F6C52F-5774-4B19-B526-1DCFE509B7EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_TemMesaLivre.Globalization", "TemMesaLivre.Globalization\4_TemMesaLivre.Globalization.csproj", "{EB118481-AF67-4468-8F80-6B3F34008D21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71D01EDB-2551-41EA-9C02-FE89F257C5C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71D01EDB-2551-41EA-9C02-FE89F257C5C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71D01EDB-2551-41EA-9C02-FE89F257C5C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71D01EDB-2551-41EA-9C02-FE89F257C5C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2941A154-5AE2-4AA6-9497-B943FE8665E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2941A154-5AE2-4AA6-9497-B943FE8665E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2941A154-5AE2-4AA6-9497-B943FE8665E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2941A154-5AE2-4AA6-9497-B943FE8665E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39A11A17-EF72-4EE9-A90D-6764E2FE3FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A11A17-EF72-4EE9-A90D-6764E2FE3FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A11A17-EF72-4EE9-A90D-6764E2FE3FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A11A17-EF72-4EE9-A90D-6764E2FE3FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153D22D4-79E7-4C31-87B7-160D20A214E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153D22D4-79E7-4C31-87B7-160D20A214E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153D22D4-79E7-4C31-87B7-160D20A214E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153D22D4-79E7-4C31-87B7-160D20A214E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E127B56-277C-4E19-84B0-7504E5AA323A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E127B56-277C-4E19-84B0-7504E5AA323A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E127B56-277C-4E19-84B0-7504E5AA323A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E127B56-277C-4E19-84B0-7504E5AA323A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BF218D6-5654-4C21-A425-B4A6CE989F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BF218D6-5654-4C21-A425-B4A6CE989F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BF218D6-5654-4C21-A425-B4A6CE989F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB118481-AF67-4468-8F80-6B3F34008D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB118481-AF67-4468-8F80-6B3F34008D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB118481-AF67-4468-8F80-6B3F34008D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB118481-AF67-4468-8F80-6B3F34008D21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39A11A17-EF72-4EE9-A90D-6764E2FE3FFE} = {30F6C52F-5774-4B19-B526-1DCFE509B7EB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13220037-1C04-4B9A-9169-FE353C531675}
+	EndGlobalSection
+EndGlobal

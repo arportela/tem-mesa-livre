@@ -1,0 +1,9 @@
+F:\Repos\tem-mesa-livre\TemMesaLivre.Application\bin\Debug\netstandard2.0\TemMesaLivre.Application.deps.json
+F:\Repos\tem-mesa-livre\TemMesaLivre.Application\bin\Debug\netstandard2.0\TemMesaLivre.Application.dll
+F:\Repos\tem-mesa-livre\TemMesaLivre.Application\bin\Debug\netstandard2.0\TemMesaLivre.Application.pdb
+F:\Repos\tem-mesa-livre\TemMesaLivre.Application\obj\Debug\netstandard2.0\TemMesaLivre.Application.csprojResolveAssemblyReference.cache
+F:\Repos\tem-mesa-livre\TemMesaLivre.Application\obj\Debug\netstandard2.0\TemMesaLivre.Application.csproj.CoreCompileInputs.cache
+F:\Repos\tem-mesa-livre\TemMesaLivre.Application\obj\Debug\netstandard2.0\TemMesaLivre.Application.AssemblyInfoInputs.cache
+F:\Repos\tem-mesa-livre\TemMesaLivre.Application\obj\Debug\netstandard2.0\TemMesaLivre.Application.AssemblyInfo.cs
+F:\Repos\tem-mesa-livre\TemMesaLivre.Application\obj\Debug\netstandard2.0\TemMesaLivre.Application.dll
+F:\Repos\tem-mesa-livre\TemMesaLivre.Application\obj\Debug\netstandard2.0\TemMesaLivre.Application.pdb

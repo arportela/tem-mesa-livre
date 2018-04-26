@@ -1,0 +1,9 @@
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\TemMesaLivre.Data\Debug\netstandard2.0\TemMesaLivre.Data.csproj.CoreCompileInputs.cache
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\TemMesaLivre.Data\Debug\netstandard2.0\TemMesaLivre.Data.AssemblyInfoInputs.cache
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\TemMesaLivre.Data\Debug\netstandard2.0\TemMesaLivre.Data.AssemblyInfo.cs
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\b\TemMesaLivre.Data\Debug\netstandard2.0\TemMesaLivre.Data.deps.json
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\b\TemMesaLivre.Data\Debug\netstandard2.0\TemMesaLivre.Data.dll
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\b\TemMesaLivre.Data\Debug\netstandard2.0\TemMesaLivre.Data.pdb
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\TemMesaLivre.Data\Debug\netstandard2.0\TemMesaLivre.Data.csproj.CopyComplete
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\TemMesaLivre.Data\Debug\netstandard2.0\TemMesaLivre.Data.dll
+F:\Repos\tem-mesa-livre\.vs\TemMesaLivre\lut\0\i\TemMesaLivre.Data\Debug\netstandard2.0\TemMesaLivre.Data.pdb
