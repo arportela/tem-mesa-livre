@@ -37,9 +37,118 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include=".angular-cli.json" />
+    <Content Include=".editorconfig" />
+    <Content Include=".gitignore" />
+    <Content Include="e2e\tsconfig.e2e.json" />
+    <Content Include="package-lock.json" />
+    <Content Include="src\app\app.component.css" />
+    <Content Include="src\app\app.component.html" />
+    <Content Include="src\app\locais\locais-alterar\locais-alterar.component.html" />
+    <Content Include="src\app\locais\locais-consultar\locais-consultar.component.html" />
+    <Content Include="src\app\locais\locais-excluir\locais-excluir.component.html" />
+    <Content Include="src\app\locais\shared\shared.component.html" />
+    <Content Include="src\app\login-administrador\login-administrador.component.html" />
+    <Content Include="src\app\login-profissionais\login-profissionais.component.html" />
+    <Content Include="src\app\login-rh\login-rh.component.html" />
+    <Content Include="src\app\profissionais\profissionais-alterar\profissionais-alterar.component.html" />
+    <Content Include="src\app\profissionais\profissionais-consultar\profissionais-consultar.component.html" />
+    <Content Include="src\app\profissionais\profissionais-excluir\profissionais-excluir.component.html" />
+    <Content Include="src\app\profissionais\shared\shared.component.html" />
+    <Content Include="src\app\start\start.component.html" />
+    <Content Include="src\assets\.gitkeep" />
+    <Content Include="src\assets\images\meeting.png" />
+    <Content Include="src\favicon.ico" />
+    <Content Include="src\index.html" />
+    <Content Include="src\styles.css" />
+    <Content Include="src\tsconfig.app.json" />
+    <Content Include="src\tsconfig.spec.json" />
     <Content Include="tsconfig.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="tslint.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="e2e\" />
+    <Folder Include="src\" />
+    <Folder Include="src\app\" />
+    <Folder Include="src\app\locais\" />
+    <Folder Include="src\app\locais\locais-alterar\" />
+    <Folder Include="src\app\locais\locais-consultar\" />
+    <Folder Include="src\app\locais\locais-excluir\" />
+    <Folder Include="src\app\locais\shared\" />
+    <Folder Include="src\app\login-administrador\" />
+    <Folder Include="src\app\login-profissionais\" />
+    <Folder Include="src\app\login-rh\" />
+    <Folder Include="src\app\profissionais\" />
+    <Folder Include="src\app\profissionais\profissionais-alterar\" />
+    <Folder Include="src\app\profissionais\profissionais-consultar\" />
+    <Folder Include="src\app\profissionais\profissionais-excluir\" />
+    <Folder Include="src\app\profissionais\shared\" />
+    <Folder Include="src\app\start\" />
+    <Folder Include="src\assets\" />
+    <Folder Include="src\assets\images\" />
+    <Folder Include="src\environments\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="e2e\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="e2e\app.po.ts" />
+    <TypeScriptCompile Include="src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\app.component.ts" />
+    <TypeScriptCompile Include="src\app\app.module.ts" />
+    <TypeScriptCompile Include="src\app\app.routing.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\locais\locais-alterar\locais-alterar.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\locais\locais-alterar\locais-alterar.component.ts" />
+    <TypeScriptCompile Include="src\app\locais\locais-consultar\locais-consultar.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\locais\locais-consultar\locais-consultar.component.ts" />
+    <TypeScriptCompile Include="src\app\locais\locais-excluir\locais-excluir.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\locais\locais-excluir\locais-excluir.component.ts" />
+    <TypeScriptCompile Include="src\app\locais\locais.module.ts" />
+    <TypeScriptCompile Include="src\app\locais\locais.routing.ts" />
+    <TypeScriptCompile Include="src\app\locais\shared\shared.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\locais\shared\shared.component.ts" />
+    <TypeScriptCompile Include="src\app\login-administrador\login-administrador.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\login-administrador\login-administrador.component.ts" />
+    <TypeScriptCompile Include="src\app\login-administrador\login-administrador.module.ts" />
+    <TypeScriptCompile Include="src\app\login-administrador\login-administrador.routing.ts" />
+    <TypeScriptCompile Include="src\app\login-profissionais\login-profissionais.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\login-profissionais\login-profissionais.component.ts" />
+    <TypeScriptCompile Include="src\app\login-profissionais\login-profissionais.module.ts" />
+    <TypeScriptCompile Include="src\app\login-profissionais\login-profissionais.routing.ts" />
+    <TypeScriptCompile Include="src\app\login-rh\login-rh.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\login-rh\login-rh.component.ts" />
+    <TypeScriptCompile Include="src\app\login-rh\login-rh.module.ts" />
+    <TypeScriptCompile Include="src\app\login-rh\login-rh.routing.ts" />
+    <TypeScriptCompile Include="src\app\profissionais\profissionais-alterar\profissionais-alterar.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\profissionais\profissionais-alterar\profissionais-alterar.component.ts" />
+    <TypeScriptCompile Include="src\app\profissionais\profissionais-consultar\profissionais-consultar.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\profissionais\profissionais-consultar\profissionais-consultar.component.ts" />
+    <TypeScriptCompile Include="src\app\profissionais\profissionais-excluir\profissionais-excluir.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\profissionais\profissionais-excluir\profissionais-excluir.component.ts" />
+    <TypeScriptCompile Include="src\app\profissionais\profissionais.module.ts" />
+    <TypeScriptCompile Include="src\app\profissionais\profissionais.routing.ts" />
+    <TypeScriptCompile Include="src\app\profissionais\shared\shared.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\profissionais\shared\shared.component.ts" />
+    <TypeScriptCompile Include="src\app\start\start.routing.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\start\start.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\start\start.component.ts" />
+    <TypeScriptCompile Include="src\app\start\start.module.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="src\environments\environment.ts" />
+    <TypeScriptCompile Include="src\main.ts" />
+    <TypeScriptCompile Include="src\polyfills.ts" />
+    <TypeScriptCompile Include="src\test.ts" />
+    <TypeScriptCompile Include="src\typings.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="karma.conf.js" />
+    <Compile Include="protractor.conf.js" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />

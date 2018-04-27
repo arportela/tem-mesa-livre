@@ -9,3 +9,4 @@ F:\Repos\tem-mesa-livre\TemMesaLivre.Globalization\obj\Debug\netstandard2.0\4_Te
 F:\Repos\tem-mesa-livre\TemMesaLivre.Globalization\obj\Debug\netstandard2.0\4_TemMesaLivre.Globalization.AssemblyInfo.cs
 F:\Repos\tem-mesa-livre\TemMesaLivre.Globalization\obj\Debug\netstandard2.0\TemMesaLivre.Globalization.dll
 F:\Repos\tem-mesa-livre\TemMesaLivre.Globalization\obj\Debug\netstandard2.0\TemMesaLivre.Globalization.pdb
+F:\Repos\tem-mesa-livre\TemMesaLivre.Globalization\obj\Debug\netstandard2.0\4_TemMesaLivre.Globalization.csprojResolveAssemblyReference.cache
