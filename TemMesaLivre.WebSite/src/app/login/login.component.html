@@ -1,0 +1,46 @@
+<app-header></app-header>
+<div class="container pagination-centered">
+  <div class="card main-center shadow rounded">
+    <div class="card-header">
+      {{role}}
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Login</h5>
+      <form (ngSubmit)="onSubmit()"
+            novalidate="novalidate"
+            [formGroup]="form">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              <label>Usuário</label>
+              <input type="text" class="form-control" formControlName="Username" maxlength="12"/>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="form-group">
+              <label>Senha</label>
+              <input type="password" class="form-control" formControlName="Password" maxlength="12"/>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <button [routerLink]="['/']" class="btn btn-light btn-block">Voltar</button>
+          </div>
+          <div class="col-md-6">
+            <button type="submit" class="btn btn-success btn-block">Entrar</button>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-md-6">
+            <button [routerLink]="[cadastroRoute]" class="btn btn-link font-weight-light font-italic">Quero me cadastrar</button>
+          </div>
+          <div class="col-md-6 text-right">
+            <button [routerLink]="[recuperarSenhaRoute]" class="btn btn-link font-weight-light font-italic">Esqueci minha senha</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

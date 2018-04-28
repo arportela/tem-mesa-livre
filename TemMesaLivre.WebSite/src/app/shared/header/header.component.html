@@ -1,0 +1,14 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow rounded d-flex flex-row">
+  <span class="navbar-brand mb-0 h1">
+    <img src="/assets/images/meeting.png" width="30" height="30" class="d-inline-block align-top" alt="">
+    Tem Mesa Livre
+  </span>
+  <div *ngIf="roleRoute != ''" class="collapse navbar-collapse d-flex flex-row-reverse">
+    <div class="navbar-nav">
+      <a *ngIf="roleRoute == 'profissional'" [class.active]="(roleRoute == 'profissional' && navegacao == '') || (navegacao == 'profissionais/alterar')" class="nav-item nav-link btn-block" [routerLink]="['/' + roleRoute + '/profissionais/alterar']">Dados Cadastrais <span class="sr-only">(current)</span></a>
+      <a *ngIf="roleRoute != 'recursos-humanos'" [class.active]="(roleRoute == 'administrador' && navegacao == '') || (navegacao == 'locais')" class="nav-item nav-link" [routerLink]="['/' + roleRoute + '/locais/consultar']">Locais</a>
+      <a *ngIf="roleRoute == 'recursos-humanos'" [class.active]="(roleRoute == 'recursos-humanos' && navegacao == '') || (navegacao == 'profissionais')" class="nav-item nav-link" [routerLink]="['/' + roleRoute + '/profissionais/consultar']">Profissionais</a>
+      <a *ngIf="roleRoute != 'administrador'" [class.active]="(navegacao == 'Reservas')" class="nav-item nav-link" (click)="navegar('Reservas')">Reservas</a>
+    </div>
+  </div>
+</nav>

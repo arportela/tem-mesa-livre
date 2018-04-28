@@ -3,27 +3,49 @@ import { Routes, RouterModule } from '@angular/router';
 
 export const routes: Routes = [
   {
-    path: '', redirectTo: 'start', pathMatch: 'full'
-  }, {
-    path: 'start',
+    path: '',
     loadChildren: 'app/start/start.module#StartModule'
   }, {
-    path: 'login-administrador',
-    loadChildren: 'app/login-administrador/login-administrador.module#LoginAdministradorModule'
+    path: 'administrador/login',
+    loadChildren: 'app/login/login.module#LoginModule'
   }, {
-    path: 'login-rh',
-    loadChildren: 'app/login-rh/login-rh.module#LoginRHModule'
+    path: 'recursos-humanos/login',
+    loadChildren: 'app/login/login.module#LoginModule'
   }, {
-    path: 'login-profissionais',
-    loadChildren: 'app/login-profissionais/login-profissionais.module#LoginProfissionaisModule'
+    path: 'profissional/login',
+    loadChildren: 'app/login/login.module#LoginModule'
   }, {
-    path: 'profissionais',
-    loadChildren: 'app/profissionais/profissionais.module#ProfissionaisModule'
+    path: 'administrador/cadastro',
+    loadChildren: 'app/cadastro/cadastro.module#CadastroModule'
   }, {
-    path: 'locais',
+    path: 'recursos-humanos/cadastro',
+    loadChildren: 'app/cadastro/cadastro.module#CadastroModule'
+  }, {
+    path: 'profissional/cadastro',
+    loadChildren: 'app/cadastro/cadastro.module#CadastroModule'
+  }, {
+    path: 'administrador/recuperar-senha',
+    loadChildren: 'app/recuperar-senha/recuperar-senha.module#RecuperarSenhaModule'
+  }, {
+    path: 'recursos-humanos/recuperar-senha',
+    loadChildren: 'app/recuperar-senha/recuperar-senha.module#RecuperarSenhaModule'
+  }, {
+    path: 'profissional/recuperar-senha',
+    loadChildren: 'app/recuperar-senha/recuperar-senha.module#RecuperarSenhaModule'
+  }, {
+    path: 'administrador/locais',
     loadChildren: 'app/locais/locais.module#LocaisModule'
   }, {
-    path: '**', redirectTo: 'erro404', pathMatch: 'full'
+    path: 'profissional/locais',
+    loadChildren: 'app/locais/locais.module#LocaisModule'
+  }, {
+    path: 'recursos-humanos/profissionais',
+    loadChildren: 'app/profissionais/profissionais.module#ProfissionaisModule'
+  }, {
+    path: 'profissional/profissionais',
+    loadChildren: 'app/profissionais/profissionais.module#ProfissionaisModule'
+  }, {
+    path: '**', redirectTo: '', pathMatch: 'full'
   }
 ];
 

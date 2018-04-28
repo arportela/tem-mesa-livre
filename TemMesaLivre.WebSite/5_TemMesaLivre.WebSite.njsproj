@@ -44,20 +44,22 @@
     <Content Include="package-lock.json" />
     <Content Include="src\app\app.component.css" />
     <Content Include="src\app\app.component.html" />
+    <Content Include="src\app\cadastro\cadastro.component.html" />
     <Content Include="src\app\locais\locais-alterar\locais-alterar.component.html" />
     <Content Include="src\app\locais\locais-consultar\locais-consultar.component.html" />
     <Content Include="src\app\locais\locais-excluir\locais-excluir.component.html" />
     <Content Include="src\app\locais\shared\shared.component.html" />
-    <Content Include="src\app\login-administrador\login-administrador.component.html" />
-    <Content Include="src\app\login-profissionais\login-profissionais.component.html" />
-    <Content Include="src\app\login-rh\login-rh.component.html" />
+    <Content Include="src\app\login\login.component.html" />
     <Content Include="src\app\profissionais\profissionais-alterar\profissionais-alterar.component.html" />
     <Content Include="src\app\profissionais\profissionais-consultar\profissionais-consultar.component.html" />
     <Content Include="src\app\profissionais\profissionais-excluir\profissionais-excluir.component.html" />
     <Content Include="src\app\profissionais\shared\shared.component.html" />
+    <Content Include="src\app\recuperar-senha\recuperar-senha.component.html" />
+    <Content Include="src\app\shared\header\header.component.html" />
     <Content Include="src\app\start\start.component.html" />
     <Content Include="src\assets\.gitkeep" />
     <Content Include="src\assets\images\meeting.png" />
+    <Content Include="src\assets\images\start_bg.jpg" />
     <Content Include="src\favicon.ico" />
     <Content Include="src\index.html" />
     <Content Include="src\styles.css" />
@@ -72,19 +74,27 @@
     <Folder Include="e2e\" />
     <Folder Include="src\" />
     <Folder Include="src\app\" />
+    <Folder Include="src\app\cadastro\" />
     <Folder Include="src\app\locais\" />
     <Folder Include="src\app\locais\locais-alterar\" />
     <Folder Include="src\app\locais\locais-consultar\" />
     <Folder Include="src\app\locais\locais-excluir\" />
     <Folder Include="src\app\locais\shared\" />
-    <Folder Include="src\app\login-administrador\" />
-    <Folder Include="src\app\login-profissionais\" />
-    <Folder Include="src\app\login-rh\" />
+    <Folder Include="src\app\login\" />
     <Folder Include="src\app\profissionais\" />
     <Folder Include="src\app\profissionais\profissionais-alterar\" />
     <Folder Include="src\app\profissionais\profissionais-consultar\" />
     <Folder Include="src\app\profissionais\profissionais-excluir\" />
     <Folder Include="src\app\profissionais\shared\" />
+    <Folder Include="src\app\recuperar-senha\" />
+    <Folder Include="src\app\shared\" />
+    <Folder Include="src\app\shared\header\" />
+    <Folder Include="src\app\shared\input-masks\" />
+    <Folder Include="src\app\shared\input-masks\parsers\" />
+    <Folder Include="src\app\shared\event\" />
+    <Folder Include="src\app\shared\session\" />
+    <Folder Include="src\app\shared\validation\" />
+    <Folder Include="src\app\shared\specifications\" />
     <Folder Include="src\app\start\" />
     <Folder Include="src\assets\" />
     <Folder Include="src\assets\images\" />
@@ -99,6 +109,10 @@
     <TypeScriptCompile Include="src\app\app.routing.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\cadastro\cadastro.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\cadastro\cadastro.component.ts" />
+    <TypeScriptCompile Include="src\app\cadastro\cadastro.module.ts" />
+    <TypeScriptCompile Include="src\app\cadastro\cadastro.routing.ts" />
     <TypeScriptCompile Include="src\app\locais\locais-alterar\locais-alterar.component.spec.ts" />
     <TypeScriptCompile Include="src\app\locais\locais-alterar\locais-alterar.component.ts" />
     <TypeScriptCompile Include="src\app\locais\locais-consultar\locais-consultar.component.spec.ts" />
@@ -109,18 +123,13 @@
     <TypeScriptCompile Include="src\app\locais\locais.routing.ts" />
     <TypeScriptCompile Include="src\app\locais\shared\shared.component.spec.ts" />
     <TypeScriptCompile Include="src\app\locais\shared\shared.component.ts" />
-    <TypeScriptCompile Include="src\app\login-administrador\login-administrador.component.spec.ts" />
-    <TypeScriptCompile Include="src\app\login-administrador\login-administrador.component.ts" />
-    <TypeScriptCompile Include="src\app\login-administrador\login-administrador.module.ts" />
-    <TypeScriptCompile Include="src\app\login-administrador\login-administrador.routing.ts" />
-    <TypeScriptCompile Include="src\app\login-profissionais\login-profissionais.component.spec.ts" />
-    <TypeScriptCompile Include="src\app\login-profissionais\login-profissionais.component.ts" />
-    <TypeScriptCompile Include="src\app\login-profissionais\login-profissionais.module.ts" />
-    <TypeScriptCompile Include="src\app\login-profissionais\login-profissionais.routing.ts" />
-    <TypeScriptCompile Include="src\app\login-rh\login-rh.component.spec.ts" />
-    <TypeScriptCompile Include="src\app\login-rh\login-rh.component.ts" />
-    <TypeScriptCompile Include="src\app\login-rh\login-rh.module.ts" />
-    <TypeScriptCompile Include="src\app\login-rh\login-rh.routing.ts" />
+    <TypeScriptCompile Include="src\app\login\login.module.ts" />
+    <TypeScriptCompile Include="src\app\login\login.routing.ts" />
+    <TypeScriptCompile Include="src\app\login\login.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\login\login.component.ts" />
+    <TypeScriptCompile Include="src\app\login\login.service.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="src\app\profissionais\profissionais-alterar\profissionais-alterar.component.spec.ts" />
     <TypeScriptCompile Include="src\app\profissionais\profissionais-alterar\profissionais-alterar.component.ts" />
     <TypeScriptCompile Include="src\app\profissionais\profissionais-consultar\profissionais-consultar.component.spec.ts" />
@@ -131,6 +140,57 @@
     <TypeScriptCompile Include="src\app\profissionais\profissionais.routing.ts" />
     <TypeScriptCompile Include="src\app\profissionais\shared\shared.component.spec.ts" />
     <TypeScriptCompile Include="src\app\profissionais\shared\shared.component.ts" />
+    <TypeScriptCompile Include="src\app\recuperar-senha\recuperar-senha.module.ts" />
+    <TypeScriptCompile Include="src\app\recuperar-senha\recuperar-senha.routing.ts" />
+    <TypeScriptCompile Include="src\app\recuperar-senha\recuperar-senha.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\recuperar-senha\recuperar-senha.component.ts" />
+    <TypeScriptCompile Include="src\app\shared\header\header.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\shared\header\header.component.ts" />
+    <TypeScriptCompile Include="src\app\shared\input-masks\cnpj.input-mask.directive.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\shared\input-masks\input-mask.module.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\shared\input-masks\parsers\base.parser.ts" />
+    <TypeScriptCompile Include="src\app\shared\input-masks\parsers\cnpj.parser.ts" />
+    <TypeScriptCompile Include="src\app\shared\input-masks\parsers\cpf-parser.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\shared\event\event.module.ts" />
+    <TypeScriptCompile Include="src\app\shared\event\event.service.ts" />
+    <TypeScriptCompile Include="src\app\shared\session\session.module.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\shared\session\session.service.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\shared\shared.module.ts" />
+    <TypeScriptCompile Include="src\app\shared\specifications\cnpj.specification.service.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\shared\specifications\cpf.specification.service.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\shared\specifications\email.specification.service.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\shared\specifications\password.specification.service.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\shared\specifications\password-equals.specification.service.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\shared\specifications\required.specification.service.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\shared\specifications\specification.base.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\shared\specifications\specification.module.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\shared\validation\form-control.directive.ts" />
     <TypeScriptCompile Include="src\app\start\start.routing.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>

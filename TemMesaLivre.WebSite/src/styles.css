@@ -1,2 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  background-image: url('assets/images/start_bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-color: #000000;
+}
+
+.main-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.card::after {
+  content: '';
+  background: inherit;
+  box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
+  filter: blur(10px);
+}
+
+.active {
+  font-weight: bolder;
+  border: solid 1px #DDD;
+}
+
+a{
+  cursor: pointer;
+}
+
+.has-error label {
+  color: #dc3545;
+}
+
+.has-error input {
+  border-color: #dc3545;
+}
+
+.has-error small {
+  color: #dc3545;
+}

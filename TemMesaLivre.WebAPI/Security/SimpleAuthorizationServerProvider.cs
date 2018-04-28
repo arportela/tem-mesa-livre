@@ -34,6 +34,9 @@ namespace TemMesaLivre.WebAPI.Security
             if (usuario != null)
             {
                 identity.AddClaim(new Claim("Nome", usuario.Nome));
+                identity.AddClaim(new Claim("Tipo", usuario.Tipo.ToString()));
+                identity.AddClaim(new Claim("Login", usuario.Login));
+                identity.AddClaim(new Claim("Id", usuario.Id.ToString()));
 
                 var properties = new AuthenticationProperties(new Dictionary<string, string> {
                     {

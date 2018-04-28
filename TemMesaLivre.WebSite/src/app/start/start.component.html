@@ -1,28 +1,25 @@
-<div class="container pagination-centered">
-  <div class="card" style="position:absolute;top:50%;left:50%;transform: translate(-50%,-50%);">
-    <div class="card-header">
-      Featured
-    </div>
-    <div class="card-body">
-      <h5 class="card-title">Special title treatment</h5>
-      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-      <div class="row">
-        <div class="col-md-12">
-          <div class="form-group">
-            <label>Usuário</label>
-            <input type="text" class="form-control" placeholder="usuário" />
-          </div>
-        </div>
-        <div class="col-md-12">
-          <div class="form-group">
-            <label>Senha</label>
-            <input type="text" class="form-control" placeholder="senha" />
+<app-header></app-header>
+<div class="container main-center">  
+  <div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+      <div class="card text-center shadow bg-white rounded">
+        <div class="card-body">
+          <h5 class="card-title">Como deseja se conectar?</h5>
+          <br />
+          <div class="row">
+            <div class="col-md-4">
+              <button [routerLink]="['../administrador/login']" class="btn btn-primary btn-block">Administrador</button>
+            </div>
+            <div class="col-md-4">
+              <button [routerLink]="['../recursos-humanos/login']" class="btn btn-primary btn-block">RH</button>
+            </div>
+            <div class="col-md-4">
+              <button [routerLink]="['../profissional/login']" class="btn btn-primary btn-block">Profissional</button>
+            </div>
           </div>
         </div>
       </div>
-      <button [routerLink]="['../login-administrador']" class="btn btn-primary">Administrador</button>
-      <button [routerLink]="['../login-rh']" class="btn btn-primary">RH</button>
-      <button [routerLink]="['../login-profissional']" class="btn btn-primary">Profissional</button>
     </div>
   </div>
 </div>

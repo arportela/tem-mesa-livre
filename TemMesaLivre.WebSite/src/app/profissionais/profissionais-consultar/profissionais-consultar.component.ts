@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-profissionais-consultar',
@@ -6,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfissionaisConsultarComponent implements OnInit {
 
-  constructor() { }
+  public role: string;
+  public roleRoute: string;
+  constructor(private router: Router) { }
 
   ngOnInit() {
+    this.roleRoute = this.router.url.split("/")[1];
+    this.role = this.roleRoute.replace("-", " ").replace(/\b\w/g, l => l.toUpperCase());
   }
 
 }
