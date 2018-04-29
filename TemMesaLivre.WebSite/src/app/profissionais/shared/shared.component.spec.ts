@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { SharedComponent } from './shared.component';
+import { SharedComponent } from "./shared.component";
 
-describe('SharedComponent', () => {
+describe("SharedComponent", () => {
   let component: SharedComponent;
   let fixture: ComponentFixture<SharedComponent>;
 
@@ -19,7 +19,7 @@ describe('SharedComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

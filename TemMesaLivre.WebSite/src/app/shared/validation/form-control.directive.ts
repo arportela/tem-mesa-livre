@@ -58,7 +58,7 @@ export class FormControlDirective {
     }
   }
 
-  @HostListener('focus', ['$event'])
+  @HostListener("focus", ["$event"])
   public cleanControl() {
     let node = this.element.nativeElement.closest(".form-group");
     node.classList.remove("has-error");
@@ -181,7 +181,7 @@ export class FormGroupDirective {
 
   }
 
-  @HostListener('submit', ['$event'])
+  @HostListener("submit", ["$event"])
   onSubmit(event: Event) {
     event.preventDefault();
     this.event.broadcast("validation-clear", event);

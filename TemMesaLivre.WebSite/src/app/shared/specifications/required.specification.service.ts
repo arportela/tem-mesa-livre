@@ -9,10 +9,10 @@ export class RequiredSpecificationService extends SpecificationBase {
 
   public validate(control: any) {
 
-    return this.isBlank(control.value) || (this.isString(control.value) && control.value == '') || control.value === false ?
+    return this.isBlank(control.value) || (this.isString(control.value) && control.value == "") || control.value === false ?
       {
-        'required': true,
-        'errorMessage': "Campo obrigatório."
+        "required": true,
+        "errorMessage": "Campo obrigatório."
       } :
       null;
   }

@@ -22,8 +22,8 @@ export class PasswordEqualsSpecificationService extends SpecificationBase {
         return control.value == otherControl.value ?
           null :
           {
-            'passwordequal': true,
-            'errorMessage': "As senhas não são iguais"
+            "passwordequal": true,
+            "errorMessage": "As senhas não são iguais"
           };
 
       } else {

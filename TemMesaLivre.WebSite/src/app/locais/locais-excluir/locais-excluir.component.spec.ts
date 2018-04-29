@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { LocaisExcluirComponent } from './locais-excluir.component';
+import { LocaisExcluirComponent } from "./locais-excluir.component";
 
-describe('LocaisExcluirComponent', () => {
+describe("LocaisExcluirComponent", () => {
   let component: LocaisExcluirComponent;
   let fixture: ComponentFixture<LocaisExcluirComponent>;
 
@@ -19,7 +19,7 @@ describe('LocaisExcluirComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

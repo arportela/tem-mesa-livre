@@ -21,16 +21,16 @@ export class CPFSpecificationService extends SpecificationBase {
     return this.isValidCPF(control.value) ?
       null :
       {
-        'cnpj': true,
-        'errorMessage': "CPF inválido."
+        "cnpj": true,
+        "errorMessage": "CPF inválido."
       }
   }
 
   public isValidCPF(obj) {
 
-    let cpf_ret = obj.replace(/[^\d]+/g, '');
+    let cpf_ret = obj.replace(/[^\d]+/g, "");
 
-    if (cpf_ret == '') return false;
+    if (cpf_ret == "") return false;
 
     if (cpf_ret.length != 11) return false;
 

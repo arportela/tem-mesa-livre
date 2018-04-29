@@ -20,8 +20,8 @@ export class PasswordSpecificationService extends SpecificationBase {
     return regex.test(control.value) ?
       null :
       {
-        'email': true,
-        'errorMessage': "A senha deve conter pelo menos 8 caracteres, contendo ao menos uma letra maiúscula, um número e um caractere especial."
+        "email": true,
+        "errorMessage": "A senha deve conter pelo menos 8 caracteres, contendo ao menos uma letra maiúscula, um número e um caractere especial."
       };
   }
 

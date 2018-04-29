@@ -1,5 +1,5 @@
 import { NgModule } from "@angular/core";
-import { CommonModule } from '@angular/common';
+import { CommonModule } from "@angular/common";
 
 import { CNPJInputMaskDirective } from "./cnpj.input-mask.directive";
 

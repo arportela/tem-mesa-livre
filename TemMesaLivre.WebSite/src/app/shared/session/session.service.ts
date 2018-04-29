@@ -50,9 +50,9 @@ export class SessionService {
     let options = new RequestOptions({ headers: header });
 
     let body = new URLSearchParams();
-    body.set('username', form.Username);
-    body.set('password', form.Password);
-    body.set('grant_type', "password");
+    body.set("username", form.Username);
+    body.set("password", form.Password);
+    body.set("grant_type", "password");
 
     return this.http.post("http://localhost:52744/token", body)
       .switchMap(res => {        

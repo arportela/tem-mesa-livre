@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { ProfissionaisExcluirComponent } from './profissionais-excluir.component';
+import { ProfissionaisExcluirComponent } from "./profissionais-excluir.component";
 
-describe('ProfissionaisExcluirComponent', () => {
+describe("ProfissionaisExcluirComponent", () => {
   let component: ProfissionaisExcluirComponent;
   let fixture: ComponentFixture<ProfissionaisExcluirComponent>;
 
@@ -19,7 +19,7 @@ describe('ProfissionaisExcluirComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

@@ -1,29 +1,29 @@
 import { RouterModule, Routes } from "@angular/router";
 
-import { LocaisConsultarComponent } from './locais-consultar/locais-consultar.component';
-import { LocaisAlterarComponent } from './locais-alterar/locais-alterar.component';
-import { LocaisExcluirComponent } from './locais-excluir/locais-excluir.component';
+import { LocaisConsultarComponent } from "./locais-consultar/locais-consultar.component";
+import { LocaisAlterarComponent } from "./locais-alterar/locais-alterar.component";
+import { LocaisExcluirComponent } from "./locais-excluir/locais-excluir.component";
 
 export const routes: Routes = [
 
   {
-    path: 'consultar',
+    path: "consultar",
     component: LocaisConsultarComponent
   },
   {
-    path: 'alterar',
+    path: "alterar",
     component: LocaisAlterarComponent
   },
   {
-    path: 'excluir',
+    path: "excluir",
     component: LocaisExcluirComponent
   },
   {
-    path: '',
+    path: "",
     redirectTo: "consultar"
   },
   {
-    path: '**',
+    path: "**",
     redirectTo: "consultar"
   }
 ];

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 import { Router } from "@angular/router";
 import { FormGroup, FormControl, ValidatorFn } from "@angular/forms";
 
@@ -7,8 +7,8 @@ import { LoginService } from "./login.service";
 import { SessionService } from "../shared/session/session.service";
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.component.html'
+  selector: "app-login",
+  templateUrl: "./login.component.html"
 })
 export class LoginComponent implements OnInit {
 
@@ -46,7 +46,7 @@ export class LoginComponent implements OnInit {
     this.service.login(this.form.value)
       .subscribe(res => {
         console.log("sucesso: ", res);
-        this.router.navigate(['/']);
+        this.router.navigate(["/"]);
       }, err => {
         console.log("erro: ", err);
       });

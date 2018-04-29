@@ -20,8 +20,8 @@ export class EmailSpecificationService extends SpecificationBase {
     return regex.test(control.value) ?
       null :
       {
-        'email': true,
-        'errorMessage': "Formato inválido para e-mail."
+        "email": true,
+        "errorMessage": "Formato inválido para e-mail."
       };
   }
 

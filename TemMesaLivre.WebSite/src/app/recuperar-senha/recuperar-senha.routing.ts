@@ -5,7 +5,7 @@ import { RecuperarSenhaComponent } from "./recuperar-senha.component";
 export const routes: Routes = [
 
   {
-    path: '',
+    path: "",
     component: RecuperarSenhaComponent
   }
 ];

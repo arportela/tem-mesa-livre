@@ -1,6 +1,6 @@
-import { Injectable } from '@angular/core';
-import { CanActivate, Router, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';
-import { SessionService } from '../session/session.service';
+import { Injectable } from "@angular/core";
+import { CanActivate, Router, ActivatedRouteSnapshot, RouterStateSnapshot } from "@angular/router";
+import { SessionService } from "../session/session.service";
 
 @Injectable()
 export class NotLoggedInService implements CanActivate {

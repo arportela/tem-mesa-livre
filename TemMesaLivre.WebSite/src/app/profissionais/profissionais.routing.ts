@@ -1,29 +1,29 @@
 import { RouterModule, Routes } from "@angular/router";
 
-import { ProfissionaisConsultarComponent } from './profissionais-consultar/profissionais-consultar.component';
-import { ProfissionaisAlterarComponent } from './profissionais-alterar/profissionais-alterar.component';
-import { ProfissionaisExcluirComponent } from './profissionais-excluir/profissionais-excluir.component';
+import { ProfissionaisConsultarComponent } from "./profissionais-consultar/profissionais-consultar.component";
+import { ProfissionaisAlterarComponent } from "./profissionais-alterar/profissionais-alterar.component";
+import { ProfissionaisExcluirComponent } from "./profissionais-excluir/profissionais-excluir.component";
 
 export const routes: Routes = [
 
   {
-    path: 'consultar',
+    path: "consultar",
     component: ProfissionaisConsultarComponent
   },
   {
-    path: 'alterar',
+    path: "alterar",
     component: ProfissionaisAlterarComponent
   },
   {
-    path: 'excluir',
+    path: "excluir",
     component: ProfissionaisExcluirComponent
   },
   {
-    path: '',
+    path: "",
     redirectTo: "consultar"
   },
   {
-    path: '**',
+    path: "**",
     redirectTo: "consultar"
   }
 ];

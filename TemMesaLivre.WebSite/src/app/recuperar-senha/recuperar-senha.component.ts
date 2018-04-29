@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 import { Router } from "@angular/router";
 import { FormGroup, FormControl, ValidatorFn } from "@angular/forms";
 
@@ -7,8 +7,8 @@ import { PasswordSpecificationService } from "../shared/specifications/password.
 import { PasswordEqualsSpecificationService } from "../shared/specifications/password-equals.specification.service";
 
 @Component({
-  selector: 'app-recuperar-senha',
-  templateUrl: './recuperar-senha.component.html'
+  selector: "app-recuperar-senha",
+  templateUrl: "./recuperar-senha.component.html"
 })
 export class RecuperarSenhaComponent implements OnInit {
 

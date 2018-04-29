@@ -9,22 +9,22 @@ export class SpecificationBase {
     return obj === undefined || obj === null;
   }
   public isBoolean(obj) {
-    return typeof obj === 'boolean';
+    return typeof obj === "boolean";
   }
   public isNumber(obj) {
-    return typeof obj === 'number';
+    return typeof obj === "number";
   }
   public isString(obj) {
-    return typeof obj === 'string';
+    return typeof obj === "string";
   }
   public isFunction(obj) {
-    return typeof obj === 'function';
+    return typeof obj === "function";
   }
   public isType(obj) {
     return this.isFunction(obj);
   }
   public isStringMap(obj) {
-    return typeof obj === 'object' && obj !== null;
+    return typeof obj === "object" && obj !== null;
   }
   public isArray(obj) {
     return Array.isArray(obj);

@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 import { Router } from "@angular/router";
 
 import { SessionService } from "../session/session.service";
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html'
+  selector: "app-header",
+  templateUrl: "./header.component.html"
 })
 export class HeaderComponent implements OnInit {
   public roleRoute: string;
@@ -34,7 +34,7 @@ export class HeaderComponent implements OnInit {
   public navegar(destino: string) {
     if (destino == "Logout") {
       this.service.logout();
-      this.router.navigate(['/']);
+      this.router.navigate(["/"]);
     } else {
       this.navegacao = destino;
     }

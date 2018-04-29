@@ -1,6 +1,6 @@
-import { Injectable } from '@angular/core';
-import { CanActivate, Router, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';
-import { SessionService } from '../session/session.service';
+import { Injectable } from "@angular/core";
+import { CanActivate, Router, ActivatedRouteSnapshot, RouterStateSnapshot } from "@angular/router";
+import { SessionService } from "../session/session.service";
 
 @Injectable()
 export class LoggedInService implements CanActivate {
@@ -25,7 +25,7 @@ export class LoggedInService implements CanActivate {
         this.router.navigate([paths[claims[4].value]]);
       }
     } else {
-      this.router.navigate(['/']);
+      this.router.navigate(["/"]);
     }
 
     return true;

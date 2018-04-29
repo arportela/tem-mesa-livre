@@ -5,7 +5,7 @@ import { StartComponent } from "./start.component";
 export const routes: Routes = [
 
   {
-    path: '',
+    path: "",
     component: StartComponent
   }
 ];

@@ -21,16 +21,16 @@ export class CNPJSpecificationService extends SpecificationBase {
     return this.isValidCNPJ(control.value) ?
       null :
       {
-        'cnpj': true,
-        'errorMessage': "CNPJ inválido."
+        "cnpj": true,
+        "errorMessage": "CNPJ inválido."
       }
   }
 
   public isValidCNPJ(obj) {
 
-    let cnpj_ret = obj.replace(/[^\d]+/g, '');
+    let cnpj_ret = obj.replace(/[^\d]+/g, "");
 
-    if (cnpj_ret == '') return false;
+    if (cnpj_ret == "") return false;
 
     if (cnpj_ret.length != 14) return false;
 

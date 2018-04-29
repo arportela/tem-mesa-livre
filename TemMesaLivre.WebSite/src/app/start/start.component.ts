@@ -1,8 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-start',
-  templateUrl: './start.component.html'
+  selector: "app-start",
+  templateUrl: "./start.component.html"
 })
 export class StartComponent implements OnInit {
 
