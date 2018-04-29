@@ -29,7 +29,7 @@ export class EventService {
     on(key: string, func: (obj: any) => any, lock?: boolean) {
 
         for (let i = 0; i < this.eventListeners.length; i++) {
-            if (this.eventListeners[i].callback == func || this.eventListeners[i].lock) {
+            if (this.eventListeners[i].callback === func || this.eventListeners[i].lock) {
                 return;
             }
         }
@@ -50,7 +50,7 @@ export class EventService {
      */
     broadcast(key: string, obj?: any) {
         for (let i = 0; i < this.eventListeners.length; i++) {
-            if (this.eventListeners[i].eventKey == key) {
+            if (this.eventListeners[i].eventKey === key) {
                 this.eventListeners[i].callback(obj);
             }
         }
