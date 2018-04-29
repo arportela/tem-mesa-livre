@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from "@angular/router";
 
+import { SessionService } from "../session/session.service";
+
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html'
@@ -9,7 +11,7 @@ export class HeaderComponent implements OnInit {
   public roleRoute: string;
   public navegacao: string;
 
-  constructor(private router: Router) {
+  constructor(private router: Router, public service: SessionService) {
     this.navegacao = "";
   }
 
@@ -25,10 +27,16 @@ export class HeaderComponent implements OnInit {
         if (this.roleRoute == "profissional" && this.router.url.split("/")[3] == "alterar") {
           this.navegacao += "/alterar";
         }
+        break;      
     }
   }
 
   public navegar(destino: string) {
-    this.navegacao = destino;
+    if (destino == "Logout") {
+      this.service.logout();
+      this.router.navigate(['/']);
+    } else {
+      this.navegacao = destino;
+    }
   }
 }

@@ -31,19 +31,24 @@ namespace TemMesaLivre.WebAPI.Security
 
             var usuario = _usuarioRepository.GetByLoginAndPassword(context.UserName, context.Password);
 
+            var roles = new List<string> {
+                "", "administrador","recursos-humanos","profissional"
+            };
+
             if (usuario != null)
             {
                 identity.AddClaim(new Claim("Nome", usuario.Nome));
                 identity.AddClaim(new Claim("Tipo", usuario.Tipo.ToString()));
                 identity.AddClaim(new Claim("Login", usuario.Login));
                 identity.AddClaim(new Claim("Id", usuario.Id.ToString()));
+                identity.AddClaim(new Claim("Role", roles[usuario.Tipo]));
 
                 var properties = new AuthenticationProperties(new Dictionary<string, string> {
                     {
                         "userdisplayname", context.UserName
                     },
                     {
-                        "role", "admin"
+                        "role", roles[usuario.Tipo]
                     }
                 });
 
@@ -54,8 +59,6 @@ namespace TemMesaLivre.WebAPI.Security
             {
                 context.SetError("invalid_grant", "O usuário e/ou senha fornecidos são inválidos");
             }
-
-            return;
         }
     }
 }

@@ -46,6 +46,7 @@ export class LoginComponent implements OnInit {
     this.service.login(this.form.value)
       .subscribe(res => {
         console.log("sucesso: ", res);
+        this.router.navigate(['/']);
       }, err => {
         console.log("erro: ", err);
       });

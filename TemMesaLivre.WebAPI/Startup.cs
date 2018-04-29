@@ -32,7 +32,7 @@ namespace TemMesaLivre.WebAPI
             return kernel;
         }
 
-        public IKernel CreateKernel()
+        public static IKernel CreateKernel()
         {
             var kernel = new StandardKernel();
             kernel.Load(Assembly.GetExecutingAssembly());
@@ -42,13 +42,13 @@ namespace TemMesaLivre.WebAPI
             return kernel;
         }
 
-        public void ConfigureAuth(IAppBuilder app, IKernel kernel)
+        public static void ConfigureAuth(IAppBuilder app, IKernel kernel)
         {
             var OAuthOptions = new OAuthAuthorizationServerOptions
             {
                 AllowInsecureHttp = true,
                 TokenEndpointPath = new PathString("/token"),
-                AccessTokenExpireTimeSpan = TimeSpan.FromMinutes(30),
+                AccessTokenExpireTimeSpan = TimeSpan.FromMinutes(20),
                 Provider = new SimpleAuthorizationServerProvider(kernel.Get<IUsuarioRepository>())
             };
 

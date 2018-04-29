@@ -8,7 +8,6 @@ namespace TemMesaLivre.Domain.Shared.Validation
     public class ValidationResult
     {
         private readonly List<ValidationError> _errors;
-        private string Message { get; set; }
         public bool IsValid { get { return !_errors.Any(); } }
         public IEnumerable<ValidationError> Errors { get { return _errors; } }
 
@@ -32,7 +31,10 @@ namespace TemMesaLivre.Domain.Shared.Validation
 
         public ValidationResult Add(params ValidationResult[] validationResults)
         {
-            if (validationResults == null) return this;
+            if (validationResults == null)
+            {
+                return this;
+            }
 
             validationResults
                 .Where(_ => _ != null)

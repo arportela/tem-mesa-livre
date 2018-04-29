@@ -8,10 +8,14 @@ namespace TemMesaLivre.Domain.Shared.Validation
     {
         public int ErrorCode { get; set; }
         public string Message { get; set; }
-        public ValidationError(string message, int errorCode = 0)
+        public ValidationError(string message, int errorCode)
         {
             ErrorCode = errorCode;
             Message = message;
+        }
+
+        public ValidationError(string message): this(message, 0)
+        {
         }
     }
 }

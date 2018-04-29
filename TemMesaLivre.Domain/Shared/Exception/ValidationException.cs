@@ -19,7 +19,7 @@ namespace TemMesaLivre.Domain.Shared.Exception
         public ValidationException(ValidationError error)
             :base(error.Message)
         {
-            Errors = new List<ValidationError>() { error };
+            Errors = new List<ValidationError> { error };
         }
 
         public override string Message => string.Join(Environment.NewLine, Errors.Select(x => x.Message).ToArray());

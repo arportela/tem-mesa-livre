@@ -9,7 +9,7 @@ namespace TemMesaLivre.Domain.Shared.Specification
     {
         public abstract Expression<Func<TEntity, bool>> Predicate { get; }
 
-        private Func<TEntity, bool> _compiledPredicate = null;
+        private Func<TEntity, bool> _compiledPredicate;
 
         public Func<TEntity, bool> ColpiledPredicate
         {

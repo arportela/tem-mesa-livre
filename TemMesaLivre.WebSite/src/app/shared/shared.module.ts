@@ -8,7 +8,7 @@ import { EventModule } from './event/event.module';
 import { SessionModule } from './session/session.module';
 import { FormControlDirective, FormGroupDirective } from './validation/form-control.directive';
 import { SpecificationModule } from './specifications/specification.module';
-import { FormGroup } from "@angular/forms/src/model";
+import { GuardModule } from "./guard/guard.module";
 
 @NgModule({
   declarations: [    
@@ -22,7 +22,8 @@ import { FormGroup } from "@angular/forms/src/model";
     InputMaskModule,
     EventModule,
     SessionModule,
-    SpecificationModule
+    SpecificationModule,
+    GuardModule
   ],
   exports: [
     HeaderComponent,
@@ -30,7 +31,8 @@ import { FormGroup } from "@angular/forms/src/model";
     EventModule,
     FormControlDirective,
     SpecificationModule,
-    FormGroupDirective
+    FormGroupDirective,
+    GuardModule
   ]
 })
 

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 import { Router } from "@angular/router";
 import { FormGroup, FormControl, ValidatorFn } from "@angular/forms";
 
@@ -8,8 +8,8 @@ import { EmailSpecificationService } from "../shared/specifications/email.specif
 import { PasswordSpecificationService } from "../shared/specifications/password.specification.service";
 
 @Component({
-  selector: 'app-cadastro',
-  templateUrl: './cadastro.component.html'
+  selector: "app-cadastro",
+  templateUrl: "./cadastro.component.html"
 })
 export class CadastroComponent implements OnInit {
 
