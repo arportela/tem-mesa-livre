@@ -1,4 +1,5 @@
-﻿using Microsoft.Owin.Security;
+﻿using Microsoft.Owin;
+using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.OAuth;
 using System;
 using System.Collections.Generic;
@@ -29,7 +30,9 @@ namespace TemMesaLivre.WebAPI.Security
             var identity = new ClaimsIdentity(context.Options.AuthenticationType);
             context.OwinContext.Response.Headers.Add("Access-Control-Allow-Origin", new[] {"*"});
 
-            var usuario = _usuarioRepository.GetByLoginAndPassword(context.UserName, context.Password);
+            IFormCollection parameters = await context.Request.ReadFormAsync();
+
+            var usuario = _usuarioRepository.GetByLoginAndPassword(context.UserName, context.Password, Int32.Parse(parameters.Get("Role")));
 
             var roles = new List<string> {
                 "", "administrador","recursos-humanos","profissional"
@@ -37,9 +40,8 @@ namespace TemMesaLivre.WebAPI.Security
 
             if (usuario != null)
             {
-                identity.AddClaim(new Claim("Nome", usuario.Nome));
                 identity.AddClaim(new Claim("Tipo", usuario.Tipo.ToString()));
-                identity.AddClaim(new Claim("Login", usuario.Login));
+                identity.AddClaim(new Claim("Login", usuario.NomeUsuario));
                 identity.AddClaim(new Claim("Id", usuario.Id.ToString()));
                 identity.AddClaim(new Claim("Role", roles[usuario.Tipo]));
 

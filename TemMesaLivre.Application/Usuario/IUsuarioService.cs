@@ -6,7 +6,11 @@ namespace TemMesaLivre.Application.Usuario
 {
     public interface IUsuarioService
     {
-        List<UsuarioResponse> GetUsuarios();
+        List<UsuarioResponse> GetAll();
         Guid Create(UsuarioRequest request);
+
+        bool CheckEmail(UsuarioRequest request);
+
+        Guid UpdateSenha(UsuarioRequest request);
     }
 }

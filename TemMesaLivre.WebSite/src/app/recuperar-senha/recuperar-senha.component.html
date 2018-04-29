@@ -1,34 +1,42 @@
 <app-header></app-header>
 <div class="container pagination-centered">
-  <div class="card main-center shadow rounded">
+  <div class="card w-50 main-center shadow rounded">
     <div class="card-header">
       {{role}}
     </div>
     <div class="card-body">
-      <div class="alert alert-warning" role="alert">
-        Um e-mail com instruções de recuperação de senha foi enviado para o seu endereço cadastrado.
-      </div>
+      <app-alert></app-alert>
       <h5 class="card-title">Recuperar Senha</h5>
       <form (ngSubmit)="onSubmit()"
             novalidate="novalidate"
             [formGroup]="form">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12" *ngIf="recuperarSenha">
             <div class="form-group">
-              <label>Nova Senha</label>
-              <input type="password" class="form-control" formControlName="Senha"/>
+              <label>Email</label>
+              <input type="text" class="form-control" formControlName="Email" maxlength="30" />
             </div>
           </div>
-          <div class="col-md-12">
+          <div class="col-md-12" *ngIf="!recuperarSenha">
+            <div class="form-group">
+              <label>Nova Senha</label>
+              <input type="password" class="form-control" formControlName="Senha" maxlength="12" />
+            </div>
+          </div>
+          <div class="col-md-12" *ngIf="!recuperarSenha">
             <div class="form-group">
               <label>Confirmar Senha</label>
-              <input type="password" class="form-control" formControlName="ConfirmacaoSenha">
+              <input type="password" class="form-control" formControlName="ConfirmacaoSenha" maxlength="12">
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 offset-md-6">
-            <button type="submit" class="btn btn-success btn-block">Alterar Senha</button>
+          <div class="col-md-6">
+            <button type="button" [routerLink]="[loginRoute]" class="btn btn-light btn-block">Cancelar</button>
+          </div>
+          <div class="col-md-6">
+            <button *ngIf="recuperarSenha" type="submit" class="btn btn-success btn-block">Recuperar Senha</button>
+            <button *ngIf="!recuperarSenha" type="submit" class="btn btn-success btn-block">Redefinir Senha</button>
           </div>
         </div>
         </form>

@@ -1,10 +1,10 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit, ViewChild } from "@angular/core";
 import { Router } from "@angular/router";
 import { FormGroup, FormControl, ValidatorFn } from "@angular/forms";
 
 import { RequiredSpecificationService } from "../shared/specifications/required.specification.service";
-import { LoginService } from "./login.service";
 import { SessionService } from "../shared/session/session.service";
+import { AlertComponent } from "../shared/alert/alert.component";
 
 @Component({
   selector: "app-login",
@@ -17,6 +17,8 @@ export class LoginComponent implements OnInit {
   public cadastroRoute: string;
   public recuperarSenhaRoute: string;
   public form: FormGroup;
+
+  @ViewChild(AlertComponent) alertComponent: AlertComponent;
 
   constructor(
     private router: Router,
@@ -32,8 +34,21 @@ export class LoginComponent implements OnInit {
 
     this.form = new FormGroup({
       Username: new FormControl("", [this.requiredValidation.validate.bind(this.requiredValidation)]),
-      Password: new FormControl("", [this.requiredValidation.validate.bind(this.requiredValidation)])
+      Password: new FormControl("", [this.requiredValidation.validate.bind(this.requiredValidation)]),
+      Role: new FormControl("")
     });
+
+    switch (this.roleRoute) {
+      case "administrador":
+        this.form.controls["Role"].setValue(1);
+        break;
+      case "recursos-humanos":
+        this.form.controls["Role"].setValue(2);
+        break;
+      case "profissional":
+        this.form.controls["Role"].setValue(3);
+        break;
+    }
 
     console.log("Logado: ", this.service.isLogged());
   }
@@ -42,13 +57,13 @@ export class LoginComponent implements OnInit {
     if (this.form.invalid) {
       return;
     }
-
+    console.log("form: ", this.form);
     this.service.login(this.form.value)
       .subscribe(res => {
-        console.log("sucesso: ", res);
         this.router.navigate(["/"]);
       }, err => {
-        console.log("erro: ", err);
+        let error = JSON.parse(err._body);
+        this.alertComponent.showAlert(error.error_description, "alert-danger");
       });
   }
 }

@@ -19,10 +19,10 @@ export class LoggedInService implements CanActivate {
 
     let claims = JSON.parse(localStorage.getItem("user_claims"));
     if (claims) {
-      if (claims[4].value == role) {
+      if (claims[3].value == role) {
         true;
       } else {
-        this.router.navigate([paths[claims[4].value]]);
+        this.router.navigate([paths[claims[3].value]]);
       }
     } else {
       this.router.navigate(["/"]);

@@ -5,6 +5,7 @@
       {{role}}
     </div>
     <div class="card-body">
+      <app-alert></app-alert>
       <h5 class="card-title">Cadastro</h5>
       <form (ngSubmit)="onSubmit()"
             novalidate="novalidate"
@@ -13,13 +14,13 @@
           <div class="col-md-4">
             <div class="form-group">
               <label>Nome de usuário</label>
-              <input type="text" class="form-control" formControlName="NomeUsuario" maxlength="12"/>
+              <input type="text" class="form-control" formControlName="NomeUsuario" maxlength="12" />
             </div>
           </div>
           <div class="col-md-8" *ngIf="roleRoute != 'profissional'">
             <div class="form-group">
               <label>Razão Social</label>
-              <input type="text" class="form-control" formControlName="RazaoSocial" maxlength="50"/>
+              <input type="text" class="form-control" formControlName="RazaoSocial" maxlength="50" />
             </div>
           </div>
           <div class="col-md-8" *ngIf="roleRoute == 'profissional'">
@@ -33,37 +34,37 @@
           <div class="col-md-4" *ngIf="roleRoute != 'profissional'">
             <div class="form-group">
               <label>CNPJ</label>
-              <input type="text" class="form-control" formControlName="CNPJ" cnpj/>
+              <input type="text" class="form-control" formControlName="CNPJ" cnpj />
             </div>
           </div>
           <div class="col-md-4" *ngIf="roleRoute == 'profissional'">
             <div class="form-group">
               <label>Número do Celular</label>
-              <input type="text" class="form-control" formControlName="Celular"/>
+              <input type="text" class="form-control" formControlName="Celular" telefone />
             </div>
           </div>
           <div class="col-md-4" *ngIf="roleRoute == 'profissional'">
             <div class="form-group">
               <label>CPF</label>
-              <input type="text" class="form-control" formControlName="CPF"/>
+              <input type="text" class="form-control" formControlName="CPF" cpf />
             </div>
           </div>
           <div class="col-md-4" *ngIf="roleRoute == 'profissional'">
             <div class="form-group">
               <label>RG</label>
-              <input type="text" class="form-control" formControlName="RG" />
+              <input type="text" class="form-control" formControlName="RG" rg />
             </div>
           </div>
           <div class="col-md-4">
             <div class="form-group">
               <label>E-mail</label>
-              <input type="text" class="form-control" formControlName="Email" maxlength="30"/>
+              <input type="text" class="form-control" formControlName="Email" maxlength="30" />
             </div>
           </div>
           <div class="col-md-4">
             <div class="form-group">
               <label>Senha</label>
-              <input type="password" class="form-control" formControlName="Senha" maxlength="12"/>
+              <input type="password" class="form-control" formControlName="Senha" maxlength="12" />
             </div>
           </div>
         </div>

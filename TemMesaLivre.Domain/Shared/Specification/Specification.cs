@@ -18,7 +18,7 @@ namespace TemMesaLivre.Domain.Shared.Specification
 
         public bool IsSatisfiedBy(TEntity entity)
         {
-            return _compiledPredicate(entity);
+            return ColpiledPredicate(entity);
         }
     }
 }

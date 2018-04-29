@@ -1,11 +1,10 @@
 import { NgModule } from "@angular/core";
 import { ReactiveFormsModule } from "@angular/forms"
+import { CommonModule } from "@angular/common";
 
 import { LoginComponent} from "./login.component";
 import { routing } from "./login.routing";
 import { SharedModule } from "../shared/shared.module";
-
-import { LoginService } from "./login.service";
 
 @NgModule({
   declarations: [
@@ -14,10 +13,8 @@ import { LoginService } from "./login.service";
   imports: [
     routing,
     SharedModule,
-    ReactiveFormsModule
-  ],
-  providers: [
-    LoginService
+    ReactiveFormsModule,
+    CommonModule
   ]
 })
 

@@ -15,7 +15,7 @@ namespace TemMesaLivre.Domain.Validation
         public UsuarioValidation()
         {
             AddRule(new MaxLengthSpec<UsuarioEntity>(_ => _.Nome, maxLengthNome),
-                Messages.ERRO_GENERICO_CAMPO_EXCEDE_LIMITE_CARACTERES.Fill(Labels.USUARIO_NOME));
+                Messages.ERRO_GENERICO_CAMPO_EXCEDE_LIMITE_CARACTERES.Fill(Labels.USUARIO_NOME, maxLengthNome));
         }
     }
 }

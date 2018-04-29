@@ -14,7 +14,7 @@ namespace TemMesaLivre.Application.UnitTest.Mock
             throw new NotImplementedException();
         }
 
-        public List<UsuarioResponse> GetUsuarios()
+        public List<UsuarioResponse> GetAll()
         {
             return new List<UsuarioResponse> {
                 new UsuarioResponse

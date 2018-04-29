@@ -23,13 +23,17 @@ export class SessionService {
     return (this.token && this.token.expiration_date > Date.now());
   }
 
+  public getToken() {
+    return this.token.access_token;
+  }
+
   public getClaims(): Observable<any>  {
-    let strClaims = localStorage.getItem("user_token");
-    if (strClaims) {
-      let claims = JSON.parse(strClaims);
+    let strToken = localStorage.getItem("user_token");
+    if (strToken) {
+      let tk = JSON.parse(strToken);
 
       let header: Headers = new Headers();
-      header.append("Authorization", "bearer " + claims.access_token);
+      header.append("Authorization", "bearer " + tk.access_token);
       let options = new RequestOptions({ headers: header });
 
       return this.http.get("http://localhost:52744/api/usuario/getclaims", options)
@@ -53,6 +57,7 @@ export class SessionService {
     body.set("username", form.Username);
     body.set("password", form.Password);
     body.set("grant_type", "password");
+    body.set("Role", form.Role);
 
     return this.http.post("http://localhost:52744/token", body)
       .switchMap(res => {        

@@ -7,6 +7,9 @@ import { CNPJSpecificationService } from "./cnpj.specification.service";
 import { EmailSpecificationService } from "./email.specification.service";
 import { PasswordSpecificationService } from "./password.specification.service";
 import { PasswordEqualsSpecificationService } from "./password-equals.specification.service";
+import { RGSpecificationService } from "./rg.specification.service";
+import { CPFSpecificationService } from "./cpf.specification.service";
+import { TelefoneSpecificationService } from "./telefone.specification.service";
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { PasswordEqualsSpecificationService } from "./password-equals.specificat
     CNPJSpecificationService,
     EmailSpecificationService,
     PasswordSpecificationService,
-    PasswordEqualsSpecificationService
+    PasswordEqualsSpecificationService,
+    RGSpecificationService,
+    CPFSpecificationService,
+    TelefoneSpecificationService
   ]
 })
 

@@ -34,7 +34,8 @@ export class BaseParser {
       "0": "[0-9]",
       "9": "[0-9]",
       "#": "[a-zA-Z0-9]",
-      "S": "[a-zA-Z]"
+      "S": "[a-zA-Z]",
+      "M": "[a-zA-Z0-9]"
     };
 
     let startCount = 0;
@@ -65,6 +66,11 @@ export class BaseParser {
         case "S":
           if (new RegExp(regexPatterns["S"]).test(s[i + offset])) {
             l = s[i + offset];
+          }
+          break;
+        case "M":
+          if (new RegExp(regexPatterns["M"]).test(s[i + offset])) {
+            l = (s[i + offset]).toUpperCase();
           }
           break;
         default:

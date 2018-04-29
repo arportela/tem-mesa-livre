@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Text;
+using TemMesaLivre.Data;
+using TemMesaLivre.Data.Shared.Repository;
 using TemMesaLivre.Domain.Shared.Entities;
 
-namespace TemMesaLivre.Data.Repository.Shared
+namespace TemMesaLivre.Domain.Shared.Repository
 {
     public class RepositoryBase<TEntity> : IDisposable, IRepositoryBase<TEntity> where TEntity : EntityBase
     {
@@ -14,12 +16,11 @@ namespace TemMesaLivre.Data.Repository.Shared
         {
             _dbContext = dbContext;
         }
-        public Guid Create(TEntity entity)
+        public void Create(TEntity entity)
         {
-            return _dbContext
+            _dbContext
                 .Set<TEntity>()
-                .Add(entity)
-                .Id;
+                .Add(entity);
         }
 
         public void Delete(Guid id)

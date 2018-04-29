@@ -37,16 +37,16 @@ export class CPFSpecificationService extends SpecificationBase {
     }
 
     // CPFs invalidos
-    if (cpf_ret === "00000000000" ||
-      cpf_ret === "11111111111" ||
-      cpf_ret === "22222222222" ||
-      cpf_ret === "33333333333" ||
-      cpf_ret === "44444444444" ||
-      cpf_ret === "55555555555" ||
-      cpf_ret === "66666666666" ||
-      cpf_ret === "77777777777" ||
-      cpf_ret === "88888888888" ||
-      cpf_ret === "99999999999")
+    if (cpf_ret == "00000000000" ||
+      cpf_ret == "11111111111" ||
+      cpf_ret == "22222222222" ||
+      cpf_ret == "33333333333" ||
+      cpf_ret == "44444444444" ||
+      cpf_ret == "55555555555" ||
+      cpf_ret == "66666666666" ||
+      cpf_ret == "77777777777" ||
+      cpf_ret == "88888888888" ||
+      cpf_ret == "99999999999")
       return false;
 
     let Soma = 0;

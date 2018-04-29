@@ -18,7 +18,7 @@ export class NotLoggedInService implements CanActivate {
 
     let claims = JSON.parse(localStorage.getItem("user_claims"));
     if (claims) {
-      this.router.navigate([paths[claims[4].value]]);
+      this.router.navigate([paths[claims[3].value]]);
     }
 
     return true;

@@ -35,16 +35,16 @@ export class CNPJSpecificationService extends SpecificationBase {
     if (cnpj_ret.length != 14) return false;
 
     // CNPJs invalidos
-    if (cnpj_ret === "00000000000000" ||
-      cnpj_ret === "11111111111111" ||
-      cnpj_ret === "22222222222222" ||
-      cnpj_ret === "33333333333333" ||
-      cnpj_ret === "44444444444444" ||
-      cnpj_ret === "55555555555555" ||
-      cnpj_ret === "66666666666666" ||
-      cnpj_ret === "77777777777777" ||
-      cnpj_ret === "88888888888888" ||
-      cnpj_ret === "99999999999999")
+    if (cnpj_ret == "00000000000000" ||
+      cnpj_ret == "11111111111111" ||
+      cnpj_ret == "22222222222222" ||
+      cnpj_ret == "33333333333333" ||
+      cnpj_ret == "44444444444444" ||
+      cnpj_ret == "55555555555555" ||
+      cnpj_ret == "66666666666666" ||
+      cnpj_ret == "77777777777777" ||
+      cnpj_ret == "88888888888888" ||
+      cnpj_ret == "99999999999999")
       return false;
 
     // Valida DVs
@@ -72,7 +72,7 @@ export class CNPJSpecificationService extends SpecificationBase {
         pos = 9;
     }
     resultado = soma % 11 < 2 ? 0 : 11 - soma % 11;
-    if (+resultado !== digitos.charAt(1))
+    if (resultado != digitos.charAt(1))
       return false;
 
     return true;

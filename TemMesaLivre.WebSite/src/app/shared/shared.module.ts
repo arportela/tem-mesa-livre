@@ -9,6 +9,7 @@ import { SessionModule } from "./session/session.module";
 import { FormControlDirective, FormGroupDirective } from "./validation/form-control.directive";
 import { SpecificationModule } from "./specifications/specification.module";
 import { GuardModule } from "./guard/guard.module";
+import { AlertModule } from "./alert/alert.module";
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { GuardModule } from "./guard/guard.module";
     EventModule,
     SessionModule,
     SpecificationModule,
-    GuardModule
+    GuardModule,
+    AlertModule
   ],
   exports: [
     HeaderComponent,
@@ -32,7 +34,8 @@ import { GuardModule } from "./guard/guard.module";
     FormControlDirective,
     SpecificationModule,
     FormGroupDirective,
-    GuardModule
+    GuardModule,
+    AlertModule
   ]
 })
 

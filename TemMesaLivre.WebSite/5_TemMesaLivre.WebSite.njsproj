@@ -55,6 +55,7 @@
     <Content Include="src\app\profissionais\profissionais-excluir\profissionais-excluir.component.html" />
     <Content Include="src\app\profissionais\shared\shared.component.html" />
     <Content Include="src\app\recuperar-senha\recuperar-senha.component.html" />
+    <Content Include="src\app\shared\alert\alert.component.html" />
     <Content Include="src\app\shared\header\header.component.html" />
     <Content Include="src\app\start\start.component.html" />
     <Content Include="src\assets\.gitkeep" />
@@ -93,6 +94,7 @@
     <Folder Include="src\app\shared\input-masks\parsers\" />
     <Folder Include="src\app\shared\event\" />
     <Folder Include="src\app\shared\guard\" />
+    <Folder Include="src\app\shared\alert\" />
     <Folder Include="src\app\shared\session\" />
     <Folder Include="src\app\shared\validation\" />
     <Folder Include="src\app\shared\specifications\" />
@@ -128,7 +130,7 @@
     <TypeScriptCompile Include="src\app\login\login.routing.ts" />
     <TypeScriptCompile Include="src\app\login\login.component.spec.ts" />
     <TypeScriptCompile Include="src\app\login\login.component.ts" />
-    <TypeScriptCompile Include="src\app\login\login.service.ts">
+    <TypeScriptCompile Include="src\app\cadastro\cadastro.service.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="src\app\profissionais\profissionais-alterar\profissionais-alterar.component.spec.ts" />
@@ -141,14 +143,21 @@
     <TypeScriptCompile Include="src\app\profissionais\profissionais.routing.ts" />
     <TypeScriptCompile Include="src\app\profissionais\shared\shared.component.spec.ts" />
     <TypeScriptCompile Include="src\app\profissionais\shared\shared.component.ts" />
+    <TypeScriptCompile Include="src\app\recuperar-senha\recuperar-senha.service.ts" />
     <TypeScriptCompile Include="src\app\recuperar-senha\recuperar-senha.module.ts" />
     <TypeScriptCompile Include="src\app\recuperar-senha\recuperar-senha.routing.ts" />
     <TypeScriptCompile Include="src\app\recuperar-senha\recuperar-senha.component.spec.ts" />
     <TypeScriptCompile Include="src\app\recuperar-senha\recuperar-senha.component.ts" />
+    <TypeScriptCompile Include="src\app\shared\alert\alert.component.ts" />
+    <TypeScriptCompile Include="src\app\shared\alert\alert.module.ts" />
     <TypeScriptCompile Include="src\app\shared\guard\guard.module.ts" />
     <TypeScriptCompile Include="src\app\shared\guard\not-logged-in.guard.service.ts" />
     <TypeScriptCompile Include="src\app\shared\header\header.component.spec.ts" />
     <TypeScriptCompile Include="src\app\shared\header\header.component.ts" />
+    <TypeScriptCompile Include="src\app\shared\input-masks\rg.input-mask.directive.ts" />
+    <TypeScriptCompile Include="src\app\shared\input-masks\cpf.input-mask.directive.ts" />
+    <TypeScriptCompile Include="src\app\shared\input-masks\parsers\rg.parser.ts" />
+    <TypeScriptCompile Include="src\app\shared\input-masks\telefone.input-mask.directive.ts" />
     <TypeScriptCompile Include="src\app\shared\input-masks\cnpj.input-mask.directive.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
@@ -157,11 +166,12 @@
     </TypeScriptCompile>
     <TypeScriptCompile Include="src\app\shared\input-masks\parsers\base.parser.ts" />
     <TypeScriptCompile Include="src\app\shared\input-masks\parsers\cnpj.parser.ts" />
-    <TypeScriptCompile Include="src\app\shared\input-masks\parsers\cpf-parser.ts">
+    <TypeScriptCompile Include="src\app\shared\input-masks\parsers\cpf.parser.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="src\app\shared\event\event.module.ts" />
     <TypeScriptCompile Include="src\app\shared\event\event.service.ts" />
+    <TypeScriptCompile Include="src\app\shared\input-masks\parsers\telefone.parser.ts" />
     <TypeScriptCompile Include="src\app\shared\session\session.module.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
@@ -172,6 +182,8 @@
     <TypeScriptCompile Include="src\app\shared\specifications\cnpj.specification.service.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\shared\specifications\telefone.specification.service.ts" />
+    <TypeScriptCompile Include="src\app\shared\specifications\rg.specification.service.ts" />
     <TypeScriptCompile Include="src\app\shared\specifications\cpf.specification.service.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Text;
+using TemMesaLivre.Domain;
 using TemMesaLivre.Domain.Entities;
 
 namespace TemMesaLivre.Data

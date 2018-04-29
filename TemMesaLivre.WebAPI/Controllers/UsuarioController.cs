@@ -35,18 +35,45 @@ namespace TemMesaLivre.WebAPI.Controllers
             return Ok(claims);
         }
 
-        [HttpGet]
-        [Authorize]
-        public List<UsuarioResponse> GetUsuarios()
+        [HttpGet]        
+        public List<UsuarioResponse> GetAll()
         {
-            return _usuarioService.GetUsuarios();
+            return _usuarioService.GetAll();
         }
 
         [HttpPost]
-        [Authorize]
         public Guid Create([FromBody] UsuarioRequest request)
         {
             return _usuarioService.Create(request);
+        }
+
+        [HttpPost]
+        public bool CheckEmail([FromBody] UsuarioRequest request)
+        {
+            return _usuarioService.CheckEmail(request);
+        }
+
+        [HttpPost]
+        public IHttpActionResult CheckUsuarioUnico([FromBody] UsuarioRequest request)
+        {
+            var entities = _usuarioService.GetAll();
+
+            if (entities.Any(_ => _.NomeUsuario == request.NomeUsuario))
+            {
+                return BadRequest("Este nome de usuário já existe.");
+            }
+            if (entities.Any(_ => _.Email == request.Email))
+            {
+                return BadRequest("Este e-mail já existe.");
+            }
+            
+            return Ok("");
+        }
+
+        [HttpPost]
+        public Guid UpdateSenha([FromBody] UsuarioRequest request)
+        {
+            return _usuarioService.UpdateSenha(request);
         }
     }
 }
