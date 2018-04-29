@@ -29,7 +29,7 @@ export class LoginComponent implements OnInit {
     this.cadastroRoute = "../../{0}/cadastro".replace("{0}", this.roleRoute);
     this.recuperarSenhaRoute = "../../{0}/recuperar-senha".replace("{0}", this.roleRoute);
     this.role = this.roleRoute.replace("-", " ").replace(/\b\w/g, l => l.toUpperCase());
-    
+
     this.form = new FormGroup({
       Username: new FormControl("", [this.requiredValidation.validate.bind(this.requiredValidation)]),
       Password: new FormControl("", [this.requiredValidation.validate.bind(this.requiredValidation)])

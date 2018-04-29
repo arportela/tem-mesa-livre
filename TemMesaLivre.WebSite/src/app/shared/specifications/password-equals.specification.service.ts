@@ -17,7 +17,7 @@ export class PasswordEqualsSpecificationService extends SpecificationBase {
       if (this.isPresent(this.required.validate(control)))
         return null;
 
-      if (typeof param == "string") {
+      if (typeof param === "string") {
         let otherControl = (<FormGroup>control.parent).controls[param] as FormControl;
         return control.value == otherControl.value ?
           null :

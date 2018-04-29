@@ -27,7 +27,7 @@ export class HeaderComponent implements OnInit {
         if (this.roleRoute == "profissional" && this.router.url.split("/")[3] == "alterar") {
           this.navegacao += "/alterar";
         }
-        break;      
+        break;
     }
   }
 

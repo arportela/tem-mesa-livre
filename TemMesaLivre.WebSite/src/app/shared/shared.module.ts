@@ -11,7 +11,7 @@ import { SpecificationModule } from "./specifications/specification.module";
 import { GuardModule } from "./guard/guard.module";
 
 @NgModule({
-  declarations: [    
+  declarations: [
     HeaderComponent,
     FormControlDirective,
     FormGroupDirective

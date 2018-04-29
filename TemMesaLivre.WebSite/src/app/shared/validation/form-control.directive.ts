@@ -24,7 +24,7 @@ export class FormControlDirective {
 
     this.event.on("validation-clear", () => {
       this.cleanControl();
-    })
+    });
 
     this.event.on("form-submitted", (event: Event) => {
       if (this.element.nativeElement.closest("form") != event.srcElement) {
@@ -90,7 +90,7 @@ export class FormControlDirective {
 
     if (parseVals) {
       parseVals.forEach((_, index) => {
-        let v = _ == "fieldName" ? this.labelTitle : _.toString();
+        let v = _ === "fieldName" ? this.labelTitle : _.toString();
         message = message.replace("{" + index + "}", v);
       });
     }
@@ -145,7 +145,7 @@ export class FormControlDirective {
     smalls = node.querySelectorAll(".error-container");
 
     smalls.forEach(_ => {
-      if (this.type == "table") {
+      if (this.type === "table") {
         let bodies = node.querySelectorAll("tbody");
         bodies.forEach(__ => {
           if (__.contains(_)) {

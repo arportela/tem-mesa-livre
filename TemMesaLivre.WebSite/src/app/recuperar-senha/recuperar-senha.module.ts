@@ -1,5 +1,5 @@
 import { NgModule } from "@angular/core";
-import { ReactiveFormsModule } from "@angular/forms"
+import { ReactiveFormsModule } from "@angular/forms";
 
 import { RecuperarSenhaComponent } from "./recuperar-senha.component";
 import { routing } from "./recuperar-senha.routing";
