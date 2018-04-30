@@ -126,6 +126,7 @@
 - [x] Desenvolver template HTML+CSS
 - [x] Desenvolver lógica do componente
 - [x] Criar mapeamento de rotas
+- [x] Fazer integração com backend
 
 ## TELA DE CADASTRO
 
@@ -133,7 +134,7 @@
 
  - [x] Adidionar método *Create* em *UsuarioController* (API)
  - [x] Adicionar método *Create* no service (APPLICATION)
- - [x] Adicionar método *Create* "UsuarioRepository" (DATA)
+ - [x] Adicionar método *Create* em *UsuarioRepository* (DATA)
  - [ ] Globalizar textos
 
 **FRONTEND**
@@ -143,6 +144,7 @@
 - [x] Desenvolver lógica do componente
 - [x] Criar service para comunicação com API
 - [x] Criar mapeamento de rotas
+- [x] Fazer integração com backend
 
 ## TELA DE RECUPERAÇÃO DE SENHA
 
@@ -160,6 +162,7 @@
 - [x] Desenvolver lógica do componente
 - [x] Criar service para comunicação com API
 - [x] Criar mapeamento de rotas
+- [x] Fazer integração com backend
 
 ## TELA DE LOCAIS
 
@@ -183,17 +186,18 @@
 - [ ] Criar novo componente *locais-alterar.component*
 - [ ] Desenvolver template HTML+CSS para *locais-alterar*
 - [ ] Desenvolver lógica do componente *locais-alterar*
-- [ ] Criar novo componente *locais-alterar.criar*
+- [ ] Criar novo componente *locais-criar.component*
 - [ ] Desenvolver template HTML+CSS para *locais-criar*
 - [ ] Desenvolver lógica do componente *locais-criar*
-- [ ] Criar novo componente *locais-alterar.excluir*
+- [ ] Criar novo componente *locais-excluir.component*
 - [ ] Desenvolver template HTML+CSS para *locais-excluir*
-- [ ] Desenvolver lógica do componente *locais-excluir
-- [ ] Criar novo modal *locais-manter.modal.criar* para adicionar mais de um período por local
-- [ ] Desenvolver template HTML+CSS para *locais-manter.modal.criar*
-- [ ] Desenvolver lógica do componente *locais-manter.modal.criar*
+- [ ] Desenvolver lógica do componente *locais-excluir*
+- [ ] Criar novo modal *locais-manter.modal.component* para adicionar mais de um período por local
+- [ ] Desenvolver template HTML+CSS para *locais-manter.modal.component*
+- [ ] Desenvolver lógica do componente *locais-manter.modal.component*
 - [ ] Criar service para comunicação com API
 - [ ] Criar mapeamento de rotas
+- [ ] Fazer integração com backend
 
 ## TELA DE PROFISSIONAIS
 
@@ -217,10 +221,7 @@
 - [ ] Criar novo componente *profissional-alterar.component*
 - [ ] Desenvolver template HTML+CSS para *profissional-alterar*
 - [ ] Desenvolver lógica do componente *profissional-alterar*
-- [ ] Criar novo componente *profissional-alterar.criar*
-- [ ] Desenvolver template HTML+CSS para *profissional-criar*
-- [ ] Desenvolver lógica do componente *profissional-criar*
-- [ ] Criar novo componente *profissional-alterar.excluir*
+- [ ] Criar novo componente *profissional-alterar.component*
 - [ ] Desenvolver template HTML+CSS para *profissional-excluir*
 - [ ] Desenvolver lógica do componente *profissional-excluir*
 - [ ] Criar service para comunicação com API
@@ -230,7 +231,7 @@
 
 **FRONTEND**
 - [ ] Criar componente de pesquisa para adicionar à tela de *profissional-consultar*
-- [ ] Criar novo componente *profissional-detalhar.excluir*
+- [ ] Criar novo componente *profissional-detalhar.component*
 - [ ] Desenvolver template HTML+CSS para *profissional-detalhar*
 - [ ] Desenvolver lógica do componente *profissional-detalhar*
 
@@ -238,7 +239,7 @@
 
 **FRONTEND**
 - [ ] Criar componente de pesquisa para adicionar à tela de *locais-consultar*
-- [ ] Criar novo componente *locais-detalhar.excluir*
+- [ ] Criar novo componente *locais-detalhar.component*
 - [ ] Desenvolver template HTML+CSS para *locais-detalhar*
 - [ ] Desenvolver lógica do componente *locais-detalhar*
 
@@ -258,20 +259,23 @@
 
 **FRONTEND**
 
+- [ ] Criar novo componente *locais-reservar.component*
+- [ ] Desenvolver template HTML+CSS para *locais-reservar*
+- [ ] Desenvolver lógica do componente *locais-reservar*
 - [ ] Criar novo componente *reservas-consultar.component*
 - [ ] Desenvolver template HTML+CSS para *locais-consultar*
 - [ ] Desenvolver lógica do componente *locais-consultar*
-- [ ] Criar novo componente *locais-alterar.component*
-- [ ] Desenvolver template HTML+CSS para *locais-alterar*
-- [ ] Desenvolver lógica do componente *locais-alterar*
-- [ ] Criar novo componente *locais-alterar.criar*
-- [ ] Desenvolver template HTML+CSS para *locais-criar*
-- [ ] Desenvolver lógica do componente *locais-criar*
-- [ ] Criar novo componente *locais-alterar.excluir*
-- [ ] Desenvolver template HTML+CSS para *locais-excluir*
-- [ ] Desenvolver lógica do componente *locais-excluir
-- [ ] Criar novo modal *locais-manter.modal.criar* para adicionar mais de um período por local
-- [ ] Desenvolver template HTML+CSS para *locais-manter.modal.criar*
-- [ ] Desenvolver lógica do componente *locais-manter.modal.criar*
+- [ ] Criar novo componente *locais-detalhar.component*
+- [ ] Desenvolver template HTML+CSS para *locais-detalhar*
+- [ ] Desenvolver lógica do componente *locais-detalhar*
+- [ ] Criar novo componente *locais-pagar.component*
+- [ ] Desenvolver template HTML+CSS para *locais-pagar*
+- [ ] Desenvolver lógica do componente *locais-pagar*
+- [ ] Criar novo componente *locais-aprovar.component*
+- [ ] Desenvolver template HTML+CSS para *locais-aprovar*
+- [ ] Desenvolver lógica do componente *locais-aprovar*
+- [ ] Criar novo componente *locais-rejeitar.component*
+- [ ] Desenvolver template HTML+CSS para *locais-rejeitar*
+- [ ] Desenvolver lógica do componente *locais-rejeitar*
 - [ ] Criar service para comunicação com API
 - [ ] Criar mapeamento de rotas
