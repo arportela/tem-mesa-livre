@@ -2,13 +2,13 @@
 
 ## DOCUMENTAÇÃO
 
-- (0,5 Horas)[x] Criar arquivo README.md com a lista de documentos no repositório
-- [x] Criar mapa de funcionalidades
-- [x] Criar arquivo TODO.md com as tarefas a serem desenvolvidas e estimativa em horas
-- [x] Criar arquivo ARCHITECTURE.md listando todas as tecnologias planejadas para esta solução
-- [ ] Criar roteiro de testes unitários para Backend
-- [ ] Criar roteiro de testes unitários para Frontend
-- [ ] Criar roteiro de testes integrados
+- [x] (0,5 Horas) - Criar arquivo README.md com a lista de documentos no repositório
+- [x] (0,5 Horas) - Criar mapa de funcionalidades
+- [x] (0,5 Horas) - Criar arquivo TODO.md com as tarefas a serem desenvolvidas e estimativa em horas
+- [x] (0,5 Horas) - Criar arquivo ARCHITECTURE.md listando todas as tecnologias planejadas para esta solução
+- [ ] (0,5 Horas) - Criar roteiro de testes unitários para Backend
+- [ ] (0,5 Horas) - Criar roteiro de testes unitários para Frontend
+- [ ] (0,5 Horas) - Criar roteiro de testes integrados
 
 ## PREPARAÇÃO
 
