@@ -2,7 +2,7 @@
 
 ## DOCUMENTAÇÃO
 
-- [x] Criar arquivo README.md com a lista de documentos no repositório
+- (0,5 Horas)[x] Criar arquivo README.md com a lista de documentos no repositório
 - [x] Criar mapa de funcionalidades
 - [x] Criar arquivo TODO.md com as tarefas a serem desenvolvidas e estimativa em horas
 - [x] Criar arquivo ARCHITECTURE.md listando todas as tecnologias planejadas para esta solução
