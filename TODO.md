@@ -64,8 +64,8 @@
  - [x] Configurar projetos frontend para publicação
  - [x] Criar aplicações web no Azure
  - [x] Fazer upload das aplicações na nuvem
- - [ ] Configurar service e envio de E-mail no Azure
- - [ ] Configurar sercivo de pagamento no Azure
+ - [ ] Configurar service de envio de E-mail no Azure
+ - [ ] Configurar service de pagamento no Azure
 
 **BACKEND PASSIVO TÉCNICO**
 
@@ -377,3 +377,41 @@
  - [ ] Criar teste para os métodos do componente *reservas-pagar.component*
  - [ ] Criar teste para os métodos do componente *reservas-aprovar.component*
  - [ ] Criar teste para os métodos do componente *reservas-rejeitar.component*
+
+## TESTES INTEGRADOS (implementação em DEV com protractor)
+**Não contemplam testes funcionais executados por analistas**
+
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de login de administrador pela tela inicial*
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de login de RH pela tela inicial*
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de login de profissional pela tela inicial*
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de login de administrador pela url -/administrador/login-*
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de login de RH pela url -/rh/login-*
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de login de profissional pela url -/profissional/login-*
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de cadastro de administrador pelo link da tela de login*
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de cadastro de rh pelo link da tela de login*
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de cadastro de profissional pelo link da tela de login*
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de cadastro de administrador pela url -/administrador/cadastro-*
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de cadastro de rh pela url -/rh/cadastro-*
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de cadastro de profissional pela url -/profissional/cadastro-* 
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de recuperação de senha de administrador pelo link da tela de login*
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de recuperação de senha de rh pelo link da tela de login*
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de recuperação de senha de profissional pelo link da tela de login*
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de recuperação de senha de administrador pela url -/administrador/recuperar-senha-*
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de recuperação de senha de rh pela url -/rh/recuperar-senha-*
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de recuperação de senha de profissional pela url -/profissional/recuperar-senha-*
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de início ao clicar no botão -voltar- da tela de login
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de login como administrador ao clicar no botão -voltar- da tela de cadastro de administrador
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de login como rh ao clicar no botão -voltar- da tela de cadastro de rh
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de login como profissional ao clicar no botão -voltar- da tela de cadastro de profissional
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de login como administrador ao clicar no botão -cancelar- da tela de recuperar senha de administrador
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de login como rh ao clicar no botão -cancelar- da tela de recuperar senha de rh
+ - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de login como profissional ao clicar no botão -cancelar- da tela de recuperar senha de profissional
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de login caso não preencha o campo -Nome de usuário-*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de login caso não preencha o campo -Senha-*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de login caso a senha informada não possua pelo menos um número, uma letra e um caractere especial*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de login caso o nome de usuário e senha sejam inválidos*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso não preencha o campo -Nome de usuário-* 
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso não preencha o campo -Razão Social- se cadastrando como Administrador*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso não preencha o campo -Razão Social- se cadastrando como RH*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso não preencha o campo -CNPJ- se cadastrando como Administrador*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso não preencha o campo -CNPJ- se cadastrando como RH*
