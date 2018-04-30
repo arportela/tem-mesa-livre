@@ -59,7 +59,8 @@
 
  - [ ] Criar specification para campos obrigatórios
  - [ ] Criar specification para tamanho máximo de campo
- - [ ]
+ - [ ] Criar api para envio de email
+ - [ ] Criar api para a realização de pagamento
 
 **FRONTEND PASSIVO TECNICO**
 
@@ -81,14 +82,18 @@
  - [x] Criar validação para CPF
  - [x] Criar validação para E-mail (crossbworser)
  - [x] Criar validação para Senha
- - [x] Criar validação para comparação entre dois campos de senha
+ - [x] Criar validação de senha igual à outro campo de senha
  - [x] Criar validação para RG
  - [x] Criar validação para Telefone
  - [x] Criar validação para Hora
- - [ ] Criar validação
+ - [ ] Criar validação para upload de imagens
+ - [ ] Criar validação de data maior que outra data
+ - [ ] Criar validação de horário maior que outro horário
  - [ ] Criar componente para visualização e upload de imagem
  - [ ] Criar componente para realização de pagamento
  - [ ] Aplicar lazy loading para as rotas a nível de módulo
+ - [x] Definir estrutura HTML padrão para formulários
+ - [ ] Criar componente para globalização
 
 ## TELA INICIAL
 
@@ -103,13 +108,13 @@
 
 **BACKEND**
 
- - [ ] Criar entidade *UsuarioEntity* (Domain)
- - [ ] Criar controller *UsuarioController* (API)
- - [ ] Criar classes de service, request e response (APPLICATION)
- - [ ] Configurar entidade no *AutoMapper* (API)
- - [ ] Configurar classes no *Ninject* (API)
- - [ ] Criar *Mapping* para configuração de tabela no banco de dados (DATA)
- - [ ] Criar repository "UsuarioRepository" (DATA)
+ - [x] Criar entidade *UsuarioEntity* (Domain)
+ - [x] Criar controller *UsuarioController* (API)
+ - [x] Criar classes de service, request e response (APPLICATION)
+ - [x] Configurar entidade no *AutoMapper* (API)
+ - [x] Configurar classes no *Ninject* (API)
+ - [x] Criar *Mapping* para configuração de tabela no banco de dados (DATA)
+ - [x] Criar repository *UsuarioRepository* (DATA)
  - [ ] Criar validation
  - [ ] Globalizar textos
 
@@ -118,4 +123,72 @@
 - [x] Criar novo componente *login.component*
 - [x] Desenvolver template HTML+CSS
 - [x] Desenvolver lógica do componente
+- [x] Criar mapeamento de rotas
+
+## TELA DE CADASTRO
+
+**BACKEND**
+
+ - [x] Adidionar método *Create* em *UsuarioController* (API)
+ - [x] Adicionar método *Create* no service (APPLICATION)
+ - [x] Adicionar método *Create* "UsuarioRepository" (DATA)
+ - [ ] Globalizar textos
+
+**FRONTEND**
+
+- [x] Criar novo componente *cadastro.component*
+- [x] Desenvolver template HTML+CSS
+- [x] Desenvolver lógica do componente
+- [x] Criar service para comunicação com API
+- [x] Criar mapeamento de rotas
+
+## TELA DE RECUPERAÇÃO DE SENHA
+
+**BACKEND**
+
+ - [x] Adidionar método *UpdateSenha* em *UsuarioController* (API)
+ - [x] Adicionar método *UpdateSenha* no service (APPLICATION)
+ - [x] Adicionar método *GetByEmail* "UsuarioRepository" (DATA)
+ - [ ] Globalizar textos
+
+**FRONTEND**
+
+- [x] Criar novo componente *recuperar-senha.component*
+- [x] Desenvolver template HTML+CSS
+- [x] Desenvolver lógica do componente
+- [x] Criar service para comunicação com API
+- [x] Criar mapeamento de rotas
+
+## TELA DE LOCAIS
+
+**BACKEND**
+
+ - [x] Criar entidade *LocaisEntity* (Domain)
+ - [x] Criar controller *LocaisController* (API)
+ - [x] Criar classes de service, request e response (APPLICATION)
+ - [x] Configurar entidade no *AutoMapper* (API)
+ - [x] Configurar classes no *Ninject* (API)
+ - [x] Criar *Mapping* para configuração de tabela no banco de dados (DATA)
+ - [x] Criar repository *LocaisRepository* (DATA)
+ - [ ] Criar validation
+ - [ ] Globalizar textos
+
+**FRONTEND**
+
+- [x] Criar novo componente *locais-consultar.component*
+- [x] Desenvolver template HTML+CSS para *locais-consultar*
+- [x] Desenvolver lógica do componente *locais-consultar*
+- [x] Criar novo componente *locais-alterar.component*
+- [x] Desenvolver template HTML+CSS para *locais-alterar*
+- [x] Desenvolver lógica do componente *locais-alterar*
+- [x] Criar novo componente *locais-alterar.criar*
+- [x] Desenvolver template HTML+CSS para *locais-criar*
+- [x] Desenvolver lógica do componente *locais-criar*
+- [x] Criar novo componente *locais-alterar.excluir*
+- [x] Desenvolver template HTML+CSS para *locais-excluir*
+- [x] Desenvolver lógica do componente *locais-excluir
+- [x] Criar novo modal *locais-manter.modal.criar* para adicionar mais de um período por local
+- [x] Desenvolver template HTML+CSS para *locais-manter.modal.criar*
+- [x] Desenvolver lógica do componente *locais-manter.modal.criar**
+- [x] Criar service para comunicação com API
 - [x] Criar mapeamento de rotas
