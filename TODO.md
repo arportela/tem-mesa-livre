@@ -198,23 +198,23 @@
 
 **FRONTEND**
 
-- [ ] Criar novo componente *locais-consultar.component*
-- [ ] Desenvolver template HTML+CSS para *locais-consultar*
-- [ ] Desenvolver lógica do componente *locais-consultar*
-- [ ] Criar novo componente *locais-alterar.component*
-- [ ] Desenvolver template HTML+CSS para *locais-alterar*
-- [ ] Desenvolver lógica do componente *locais-alterar*
-- [ ] Criar novo componente *locais-criar.component*
-- [ ] Desenvolver template HTML+CSS para *locais-criar*
-- [ ] Desenvolver lógica do componente *locais-criar*
-- [ ] Criar novo componente *locais-excluir.component*
-- [ ] Desenvolver template HTML+CSS para *locais-excluir*
-- [ ] Desenvolver lógica do componente *locais-excluir*
-- [ ] Criar novo modal *locais-manter.modal.component* para adicionar mais de um período por local
-- [ ] Desenvolver template HTML+CSS para *locais-manter.modal.component*
-- [ ] Desenvolver lógica do componente *locais-manter.modal.component*
+- [x] Criar novo componente *locais-consultar.component*
+- [x] Desenvolver template HTML+CSS para *locais-consultar*
+- [x] Desenvolver lógica do componente *locais-consultar*
+- [x] Criar novo componente *locais-alterar.component*
+- [x] Desenvolver template HTML+CSS para *locais-alterar*
+- [x] Desenvolver lógica do componente *locais-alterar*
+- [x] Criar novo componente *locais-criar.component*
+- [x] Desenvolver template HTML+CSS para *locais-criar*
+- [x] Desenvolver lógica do componente *locais-criar*
+- [x] Criar novo componente *locais-excluir.component*
+- [x] Desenvolver template HTML+CSS para *locais-excluir*
+- [x] Desenvolver lógica do componente *locais-excluir*
+- [x] Criar novo modal *locais-manter.modal.component* para adicionar mais de um período por local
+- [x] Desenvolver template HTML+CSS para *locais-manter.modal.component*
+- [x] Desenvolver lógica do componente *locais-manter.modal.component*
 - [ ] Criar service para comunicação com API
-- [ ] Criar mapeamento de rotas
+- [x] Criar mapeamento de rotas
 - [ ] Fazer integração com backend
 
 ## TELA DE PROFISSIONAIS
