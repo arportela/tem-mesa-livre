@@ -67,7 +67,7 @@
  - [ ] Configurar service e envio de E-mail no Azure
  - [ ] Configurar sercivo de pagamento no Azure
 
-**FRONTEND PASSIVO TÉCNICO**
+**BACKEND PASSIVO TÉCNICO**
 
  - [ ] Criar specification para campos obrigatórios
  - [ ] Criar specification para tamanho máximo de campo
@@ -358,3 +358,22 @@
  - [ ] Criar teste para componente de realização de pagamento
  - [ ] Criar teste para lazy loading de rotas
  - [ ] Criar teste para componente de globalização
+ - [ ] Criar teste para os métodos do componente *start.component*
+ - [ ] Criar teste para os métodos do componente *login.component*
+ - [ ] Criar teste para os métodos do componente *cadastro.component*
+ - [ ] Criar teste para os métodos do componente *recuperar-senha.component*
+ - [ ] Criar teste para os métodos do componente *locais-consultar.component*
+ - [ ] Criar teste para os métodos do componente *locais-criar.component*
+ - [ ] Criar teste para os métodos do componente *locais-alterar.component*
+ - [ ] Criar teste para os métodos do componente *locais-detalhar.component*
+ - [ ] Criar teste para os métodos do componente *locais-excluir.component*
+ - [ ] Criar teste para os métodos do componente *locais-detalhar.component*
+ - [ ] Criar teste para os métodos do componente *profissionais-consultar.component*
+ - [ ] Criar teste para os métodos do componente *profissionais-alterar.component*
+ - [ ] Criar teste para os métodos do componente *profissionais-excluir.component*
+ - [ ] Criar teste para os métodos do componente *profissionais-detalhar.component*
+ - [ ] Criar teste para os métodos do componente *reservas-consultar.component*
+ - [ ] Criar teste para os métodos do componente *reservas-detalhar.component*
+ - [ ] Criar teste para os métodos do componente *reservas-pagar.component*
+ - [ ] Criar teste para os métodos do componente *reservas-aprovar.component*
+ - [ ] Criar teste para os métodos do componente *reservas-rejeitar.component*
