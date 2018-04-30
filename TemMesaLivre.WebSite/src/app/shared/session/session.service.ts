@@ -8,6 +8,8 @@ import "rxjs/add/operator/catch";
 import { empty } from "rxjs/observable/empty";
 import { of } from "rxjs/observable/of";
 
+import { endpoints } from "../../endpoints";
+
 @Injectable()
 
 export class SessionService {
@@ -36,7 +38,7 @@ export class SessionService {
       header.append("Authorization", "bearer " + tk.access_token);
       let options = new RequestOptions({ headers: header });
 
-      return this.http.get("http://localhost:52744/api/usuario/getclaims", options)
+      return this.http.get(endpoints.base + "/api/usuario/getclaims", options)
         .map(res => {
           this.claims = res.json();
           localStorage.setItem("user_claims", JSON.stringify(this.claims));
@@ -59,7 +61,7 @@ export class SessionService {
     body.set("grant_type", "password");
     body.set("Role", form.Role);
 
-    return this.http.post("http://localhost:52744/token", body)
+    return this.http.post(endpoints.base + "/token", body)
       .switchMap(res => {        
         this.token = res.json();
         this.token.expiration_date = Date.now() + (res.json().expires_in * 1000);

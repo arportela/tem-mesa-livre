@@ -5,7 +5,8 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <Name>5_TemMesaLivre.WebSite</Name>
     <RootNamespace>TemMesaLivre.WebSite</RootNamespace>
-    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
+    <LastActiveSolutionConfig>Release|Any CPU</LastActiveSolutionConfig>
+    <NameOfLastUsedPublishProfile>temmesalivreweb - Web Deploy (2)</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -70,10 +71,15 @@
     <Content Include="src\styles.css" />
     <Content Include="src\tsconfig.app.json" />
     <Content Include="src\tsconfig.spec.json" />
+    <None Include="temmesalivreweb - Web Deploy.pubxml" />
+    <None Include="temmesalivreweb - Web Deploy %282%29.pubxml" />
     <Content Include="tsconfig.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Content Include="tslint.json" />
+    <Content Include="web.config">
+      <SubType>Code</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="e2e\" />
@@ -124,6 +130,9 @@
     <TypeScriptCompile Include="src\app\cadastro\cadastro.component.ts" />
     <TypeScriptCompile Include="src\app\cadastro\cadastro.module.ts" />
     <TypeScriptCompile Include="src\app\cadastro\cadastro.routing.ts" />
+    <TypeScriptCompile Include="src\app\endpoints.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="src\app\locais\locais-alterar\locais-alterar.component.spec.ts" />
     <TypeScriptCompile Include="src\app\locais\locais-alterar\locais-alterar.component.ts" />
     <TypeScriptCompile Include="src\app\locais\locais-consultar\locais-consultar.component.spec.ts" />

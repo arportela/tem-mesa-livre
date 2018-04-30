@@ -4,6 +4,7 @@ import { Observable } from "rxjs/Observable";
 import "rxjs/add/operator/map";
 import "rxjs/add/operator/catch";
 
+import { endpoints } from "../endpoints";
 import { SessionService } from "../shared/session/session.service";
 
 @Injectable()
@@ -18,7 +19,7 @@ export class RecuperarSenhaService {
     header.append("Content-Type", "application/json");
     let options = new RequestOptions({ headers: header });
 
-    return this.http.post("http://localhost:52744/api/usuario/checkEmail", body, options)
+    return this.http.post(endpoints.base + "/api/usuario/checkEmail", body, options)
       .map(res => res.json());
   }
 
@@ -27,7 +28,7 @@ export class RecuperarSenhaService {
     header.append("Content-Type", "application/json");
     let options = new RequestOptions({ headers: header });
 
-    return this.http.post("http://localhost:52744/api/usuario/updateSenha", body, options)
+    return this.http.post(endpoints.base + "/api/usuario/updateSenha", body, options)
       .map(res => res.json());
   }
 }

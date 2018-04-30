@@ -1,0 +1,12 @@
+F:\Repos\tem-mesa-livre\TemMesaLivre.Globalization\bin\Release\netstandard2.0\TemMesaLivre.Globalization.deps.json
+F:\Repos\tem-mesa-livre\TemMesaLivre.Globalization\bin\Release\netstandard2.0\TemMesaLivre.Globalization.dll
+F:\Repos\tem-mesa-livre\TemMesaLivre.Globalization\bin\Release\netstandard2.0\TemMesaLivre.Globalization.pdb
+F:\Repos\tem-mesa-livre\TemMesaLivre.Globalization\obj\Release\netstandard2.0\4_TemMesaLivre.Globalization.csprojResolveAssemblyReference.cache
+F:\Repos\tem-mesa-livre\TemMesaLivre.Globalization\obj\Release\netstandard2.0\TemMesaLivre.Globalization.Labels.resources
+F:\Repos\tem-mesa-livre\TemMesaLivre.Globalization\obj\Release\netstandard2.0\TemMesaLivre.Globalization.Messages.resources
+F:\Repos\tem-mesa-livre\TemMesaLivre.Globalization\obj\Release\netstandard2.0\4_TemMesaLivre.Globalization.csproj.GenerateResource.cache
+F:\Repos\tem-mesa-livre\TemMesaLivre.Globalization\obj\Release\netstandard2.0\4_TemMesaLivre.Globalization.csproj.CoreCompileInputs.cache
+F:\Repos\tem-mesa-livre\TemMesaLivre.Globalization\obj\Release\netstandard2.0\4_TemMesaLivre.Globalization.AssemblyInfoInputs.cache
+F:\Repos\tem-mesa-livre\TemMesaLivre.Globalization\obj\Release\netstandard2.0\4_TemMesaLivre.Globalization.AssemblyInfo.cs
+F:\Repos\tem-mesa-livre\TemMesaLivre.Globalization\obj\Release\netstandard2.0\TemMesaLivre.Globalization.dll
+F:\Repos\tem-mesa-livre\TemMesaLivre.Globalization\obj\Release\netstandard2.0\TemMesaLivre.Globalization.pdb
