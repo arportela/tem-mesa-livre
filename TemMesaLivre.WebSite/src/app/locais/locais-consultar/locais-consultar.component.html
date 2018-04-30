@@ -1,4 +1,43 @@
 <app-header></app-header>
-<p>
-  locais-consultar works!
-</p>
+<div class="card w-75 main-center shadow rounded">
+  <div class="card-header">
+    {{role}}
+  </div>
+  <div class="card-body">
+    
+    <div class="row">
+      <div class="col-md-6 offset-md-6 text-right">
+        <button type="button" [routerLink]="['../criar']" class="btn btn-primary">Adicionar local</button>
+      </div>
+    </div>
+    <br />
+    <table class="table table-hover table-sm">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">Descrição</th>
+          <th scope="col">Cidade</th>
+          <th scope="col">Estado</th>
+          <th scope="col">Qtd mesas</th>
+          <th scope="col">Qtd cadeiras</th>
+        </tr>
+      </thead>
+      <tbody *ngIf="registros?.length > 0">
+        <tr *ngFor="let r of registros">
+          <td></td>
+          <td>{{r.Descricao}}</td>
+          <td>{{r.Cidade}}</td>
+          <td>{{r.Estado}}</td>
+          <td>{{r.QtdMesas}}</td>
+          <td>{{r.QtdCadeiras}}</td>
+        </tr>
+      </tbody>
+      <tbody *ngIf="!(registros?.length > 0)">
+        <tr>
+          <td colspan="6">Não há registros para exibir. Clique em 'Adicionar local' para cadastrar um registro.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+

@@ -10,6 +10,7 @@ import { PasswordEqualsSpecificationService } from "./password-equals.specificat
 import { RGSpecificationService } from "./rg.specification.service";
 import { CPFSpecificationService } from "./cpf.specification.service";
 import { TelefoneSpecificationService } from "./telefone.specification.service";
+import { TimeSpecificationService } from "./time.specification.service";
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { TelefoneSpecificationService } from "./telefone.specification.service";
     PasswordEqualsSpecificationService,
     RGSpecificationService,
     CPFSpecificationService,
-    TelefoneSpecificationService
+    TelefoneSpecificationService,
+    TimeSpecificationService
   ]
 })
 

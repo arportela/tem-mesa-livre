@@ -8,7 +8,6 @@ import { SpecificationBase } from "./specification.base";
 export class RequiredSpecificationService extends SpecificationBase {
 
   public validate(control: any) {
-
     return this.isBlank(control.value) || (this.isString(control.value) && control.value == "") || control.value === false ?
       {
         "required": true,

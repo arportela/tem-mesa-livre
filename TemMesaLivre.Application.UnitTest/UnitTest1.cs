@@ -15,7 +15,7 @@ namespace TemMesaLivre.Application.UnitTest
         {
             var controller = new UsuarioController(new UsuarioServiceMock());
 
-            var result = controller.GetUsuarios();
+            var result = controller.GetAll();
             Assert.AreEqual(result.Count, 2);
         }
     }

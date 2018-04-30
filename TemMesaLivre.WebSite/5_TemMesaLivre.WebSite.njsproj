@@ -48,7 +48,10 @@
     <Content Include="src\app\locais\locais-alterar\locais-alterar.component.html" />
     <Content Include="src\app\locais\locais-consultar\locais-consultar.component.html" />
     <Content Include="src\app\locais\locais-excluir\locais-excluir.component.html" />
-    <Content Include="src\app\locais\shared\shared.component.html" />
+    <Content Include="src\app\locais\shared\dialog\locais-manter.dialog.component.html">
+      <SubType>Code</SubType>
+    </Content>
+    <Content Include="src\app\locais\shared\locais-manter.component.html" />
     <Content Include="src\app\login\login.component.html" />
     <Content Include="src\app\profissionais\profissionais-alterar\profissionais-alterar.component.html" />
     <Content Include="src\app\profissionais\profissionais-consultar\profissionais-consultar.component.html" />
@@ -59,6 +62,7 @@
     <Content Include="src\app\shared\header\header.component.html" />
     <Content Include="src\app\start\start.component.html" />
     <Content Include="src\assets\.gitkeep" />
+    <Content Include="src\assets\icons\glyphicons-156-show-big-thumbnails.png" />
     <Content Include="src\assets\images\meeting.png" />
     <Content Include="src\assets\images\start_bg.jpg" />
     <Content Include="src\favicon.ico" />
@@ -79,8 +83,10 @@
     <Folder Include="src\app\locais\" />
     <Folder Include="src\app\locais\locais-alterar\" />
     <Folder Include="src\app\locais\locais-consultar\" />
+    <Folder Include="src\app\locais\locais-criar\" />
     <Folder Include="src\app\locais\locais-excluir\" />
     <Folder Include="src\app\locais\shared\" />
+    <Folder Include="src\app\locais\shared\dialog\" />
     <Folder Include="src\app\login\" />
     <Folder Include="src\app\profissionais\" />
     <Folder Include="src\app\profissionais\profissionais-alterar\" />
@@ -95,12 +101,14 @@
     <Folder Include="src\app\shared\event\" />
     <Folder Include="src\app\shared\guard\" />
     <Folder Include="src\app\shared\alert\" />
+    <Folder Include="src\app\shared\pipes\" />
     <Folder Include="src\app\shared\session\" />
     <Folder Include="src\app\shared\validation\" />
     <Folder Include="src\app\shared\specifications\" />
     <Folder Include="src\app\start\" />
     <Folder Include="src\assets\" />
     <Folder Include="src\assets\images\" />
+    <Folder Include="src\assets\icons\" />
     <Folder Include="src\environments\" />
   </ItemGroup>
   <ItemGroup>
@@ -120,12 +128,17 @@
     <TypeScriptCompile Include="src\app\locais\locais-alterar\locais-alterar.component.ts" />
     <TypeScriptCompile Include="src\app\locais\locais-consultar\locais-consultar.component.spec.ts" />
     <TypeScriptCompile Include="src\app\locais\locais-consultar\locais-consultar.component.ts" />
+    <TypeScriptCompile Include="src\app\locais\locais-criar\locais-criar.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\locais\locais-criar\locais-criar.component.ts" />
     <TypeScriptCompile Include="src\app\locais\locais-excluir\locais-excluir.component.spec.ts" />
     <TypeScriptCompile Include="src\app\locais\locais-excluir\locais-excluir.component.ts" />
     <TypeScriptCompile Include="src\app\locais\locais.module.ts" />
     <TypeScriptCompile Include="src\app\locais\locais.routing.ts" />
-    <TypeScriptCompile Include="src\app\locais\shared\shared.component.spec.ts" />
-    <TypeScriptCompile Include="src\app\locais\shared\shared.component.ts" />
+    <TypeScriptCompile Include="src\app\locais\shared\locais-manter.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\locais\shared\locais-manter.component.ts" />
+    <TypeScriptCompile Include="src\app\locais\shared\dialog\locais-manter.dialog.component.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="src\app\login\login.module.ts" />
     <TypeScriptCompile Include="src\app\login\login.routing.ts" />
     <TypeScriptCompile Include="src\app\login\login.component.spec.ts" />
@@ -154,6 +167,21 @@
     <TypeScriptCompile Include="src\app\shared\guard\not-logged-in.guard.service.ts" />
     <TypeScriptCompile Include="src\app\shared\header\header.component.spec.ts" />
     <TypeScriptCompile Include="src\app\shared\header\header.component.ts" />
+    <TypeScriptCompile Include="src\app\shared\input-masks\parsers\date-time-base.parser.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\shared\input-masks\parsers\date.parser.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\shared\input-masks\parsers\number.parser.ts" />
+    <TypeScriptCompile Include="src\app\shared\input-masks\number.input-mask.directive.ts" />
+    <TypeScriptCompile Include="src\app\shared\input-masks\date.input-mask.directive.ts" />
+    <TypeScriptCompile Include="src\app\shared\input-masks\time.input-mask.directive.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\shared\input-masks\parsers\time.parser.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="src\app\shared\input-masks\rg.input-mask.directive.ts" />
     <TypeScriptCompile Include="src\app\shared\input-masks\cpf.input-mask.directive.ts" />
     <TypeScriptCompile Include="src\app\shared\input-masks\parsers\rg.parser.ts" />
@@ -172,6 +200,12 @@
     <TypeScriptCompile Include="src\app\shared\event\event.module.ts" />
     <TypeScriptCompile Include="src\app\shared\event\event.service.ts" />
     <TypeScriptCompile Include="src\app\shared\input-masks\parsers\telefone.parser.ts" />
+    <TypeScriptCompile Include="src\app\shared\pipes\pipe.module.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\shared\pipes\time.pipe.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="src\app\shared\session\session.module.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
@@ -182,6 +216,7 @@
     <TypeScriptCompile Include="src\app\shared\specifications\cnpj.specification.service.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
+    <TypeScriptCompile Include="src\app\shared\specifications\time.specification.service.ts" />
     <TypeScriptCompile Include="src\app\shared\specifications\telefone.specification.service.ts" />
     <TypeScriptCompile Include="src\app\shared\specifications\rg.specification.service.ts" />
     <TypeScriptCompile Include="src\app\shared\specifications\cpf.specification.service.ts">

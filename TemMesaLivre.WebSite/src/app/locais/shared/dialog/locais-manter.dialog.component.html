@@ -1,0 +1,54 @@
+<div>
+  <div bsModal #lgModal="bs-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+       aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form (ngSubmit)="onSubmit()"
+              novalidate="novalidate" [formGroup]="formDialog">
+          <div class="modal-header">
+            <h5 class="modal-title">Adicionar período</h5>
+            <button type="button" class="close" (click)="lgModal.hide()" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div *ngIf="alert" class="alert {{alertSeverity}}" role="alert">
+              {{alertMessage}}
+              <button type="button" class="close" (click)="alert = false">
+                <span>&times;</span>
+              </button>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Horário de</label>
+                  <input type="text" class="form-control" formControlName="HorarioInicial" time />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Até</label>
+                  <input type="text" class="form-control" formControlName="HorarioFinal" time />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="row">
+              <div class="col-md-6">
+                <button type="button" (click)="lgModal.hide()" class="btn btn-light btn-block">
+                  Cancelar
+                </button>
+              </div>
+              <div class="col-md-6">
+                <button type="submit" class="btn btn-success btn-block">
+                  Adicionar
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,132 @@
+<app-header></app-header>
+<div class="container pagination-centered">
+  <div class="card w-75 main-center shadow rounded">
+    <div class="card-header">
+      {{role}}
+    </div>
+    <div class="card-body">
+      <app-alert></app-alert>
+      <h5 class="card-title">Adicionar novo local</h5>
+      <form (ngSubmit)="onSubmit()"
+            novalidate="novalidate"
+            [formGroup]="form">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-group">
+              <label>Descrição</label>
+              <input type="text" class="form-control" formControlName="Descricao" maxlength="30" />
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="form-group">
+              <label>Endereço</label>
+              <input type="text" class="form-control" formControlName="Endereco" maxlength="70" />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-group">
+              <label>Cidade</label>
+              <input type="text" class="form-control" formControlName="Cidade" maxlength="30" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label>Estado</label>
+              <input type="text" class="form-control" formControlName="Estado" maxlength="30" />
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="form-group">
+              <label>Qtd mesas</label>
+              <input type="text" class="form-control" formControlName="QtdMesas" maxlength="3" number />
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="form-group">
+              <label>Qtd cadeiras</label>
+              <input type="text" class="form-control" formControlName="QtdCadeiras" maxlength="3" number />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-group">
+              <label>Custo por hora</label>
+              <input type="text" class="form-control" formControlName="CustoPorHora" maxlength="8" [number]="2"/>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label>Período de</label>
+              <input type="text" class="form-control" formControlName="DataInicial" date />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group">
+              <label>até</label>
+              <input type="text" class="form-control" formControlName="DataFinal" date />
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-md-6">
+            <h5 class="card-title">Períodos</h5>
+          </div>
+          <div class="col-md-6 text-right">
+            <button type="button" (click)="adicionar()" class="btn btn-primary">Adicionar período</button>
+          </div>
+        </div>
+        <br />
+        <table class="table table-hover table-sm">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Das</th>
+              <th scope="col">Às</th>
+            </tr>
+          </thead>
+          <tbody *ngIf="periodos?.length > 0">
+            <tr *ngFor="let p of periodos; let i = index">
+              <td>
+                <div class="menu-popovertable">
+                  <popover-content #formPopoverTable
+                                   [closeOnClickOutside]="true">
+                    <ul>
+                      <li>
+                        <a (click)="excluirPeriodo(index)">Excluir</a>
+                      </li>
+                    </ul>
+                  </popover-content>
+                  <a popoverPlacement="top" [popover]="formPopoverTable">
+                    <i>
+                    <img src="/assets/icons/glyphicons-156-show-big-thumbnails.png" /></i>
+                  </a>
+                </div>
+              </td>
+              <td>{{p.HorarioInicial | time}}</td>
+              <td>{{p.HorarioFinal | time}}</td>
+            </tr>
+          </tbody>
+          <tbody *ngIf="!(periodos?.length > 0)">
+            <tr>
+              <td colspan="6">Não há períodos para exibir. Clique em 'Adicionar período' para cadastrar um registro.</td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <div class="row">
+          <div class="col-md-6">
+            <button type="button" [routerLink]="['../consultar']" class="btn btn-light btn-block">Voltar</button>
+          </div>
+          <div class="col-md-6">
+            <button type="submit" class="btn btn-success btn-block">Salvar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <app-locais-manter-dialog [callback]="callbackDialog"></app-locais-manter-dialog>
+</div>

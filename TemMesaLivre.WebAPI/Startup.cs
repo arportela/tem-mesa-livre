@@ -10,6 +10,7 @@ using Ninject.Web.Common.OwinHost;
 using Ninject.Web.WebApi;
 using Ninject.Web.WebApi.OwinHost;
 using Owin;
+using TemMesaLivre.Application.Local;
 using TemMesaLivre.Application.Usuario;
 using TemMesaLivre.Data;
 using TemMesaLivre.Data.Repository;
@@ -87,6 +88,8 @@ namespace TemMesaLivre.WebAPI
             Kernel.Bind<IDatabaseContext>().To<DatabaseContext>();
             Kernel.Bind<IUsuarioRepository>().To<UsuarioRepository>();
             Kernel.Bind<IUsuarioService>().To<UsuarioService>();
+            Kernel.Bind<ILocalRepository>().To<LocalRepository>();
+            Kernel.Bind<ILocalService>().To<LocalService>();
         }
     }
 }

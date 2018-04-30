@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { SharedComponent } from "./shared.component";
+import { LocaisManterComponent } from "./locais-manter.component";
 
-describe("SharedComponent", () => {
-  let component: SharedComponent;
-  let fixture: ComponentFixture<SharedComponent>;
+describe("LocaisManterComponent", () => {
+  let component: LocaisManterComponent;
+  let fixture: ComponentFixture<LocaisManterComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SharedComponent ]
+      declarations: [LocaisManterComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SharedComponent);
+    fixture = TestBed.createComponent(LocaisManterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

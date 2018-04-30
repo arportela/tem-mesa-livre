@@ -62,7 +62,6 @@ export class RecuperarSenhaComponent implements OnInit {
   }
 
   onSubmit() {
-    console.log("form: ", this.form);
     if (this.recuperarSenha) {
       if (this.form.controls["Email"].invalid) {
         return;
@@ -76,7 +75,6 @@ export class RecuperarSenhaComponent implements OnInit {
       return;
     }
 
-    console.log("Valido");
     this.updateSenha();
   }
 

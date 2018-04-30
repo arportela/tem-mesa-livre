@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using TemMesaLivre.Application.Local.Mapping;
 using TemMesaLivre.Application.Usuario.Mapping;
 
 namespace TemMesaLivre.WebAPI.App_Start
@@ -12,6 +13,7 @@ namespace TemMesaLivre.WebAPI.App_Start
         {
             AutoMapper.Mapper.Initialize(_ => {
                 _.AddProfile(new UsuarioMapRequestProfiler());
+                _.AddProfile(new LocalMapRequestProfiler());
             });
         }
     }

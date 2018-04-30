@@ -9,6 +9,11 @@ namespace TemMesaLivre.Application.UnitTest.Mock
 {
     public class UsuarioServiceMock : IUsuarioService
     {
+        public bool CheckEmail(UsuarioRequest request)
+        {
+            throw new NotImplementedException();
+        }
+
         public Guid Create(UsuarioRequest request)
         {
             throw new NotImplementedException();
@@ -28,6 +33,11 @@ namespace TemMesaLivre.Application.UnitTest.Mock
                     Tipo = 1
                 }
             };
+        }
+
+        public Guid UpdateSenha(UsuarioRequest request)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -10,6 +10,7 @@ import { FormControlDirective, FormGroupDirective } from "./validation/form-cont
 import { SpecificationModule } from "./specifications/specification.module";
 import { GuardModule } from "./guard/guard.module";
 import { AlertModule } from "./alert/alert.module";
+import { PipeModule } from "./pipes/pipe.module";
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { AlertModule } from "./alert/alert.module";
     SessionModule,
     SpecificationModule,
     GuardModule,
-    AlertModule
+    AlertModule,
+    PipeModule
   ],
   exports: [
     HeaderComponent,
@@ -35,7 +37,8 @@ import { AlertModule } from "./alert/alert.module";
     SpecificationModule,
     FormGroupDirective,
     GuardModule,
-    AlertModule
+    AlertModule,
+    PipeModule
   ]
 })
 

@@ -33,7 +33,7 @@ namespace TemMesaLivre.Domain.Shared.Repository
                 .Remove(_));
         }
 
-        public IQueryable<TEntity> GetAll()
+        public virtual IQueryable<TEntity> GetAll()
         {
             return _dbContext.Set<TEntity>();
         }
