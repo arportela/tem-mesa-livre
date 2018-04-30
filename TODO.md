@@ -54,12 +54,68 @@
  - [x] Configurar projetos frontend para publicação
  - [x] Criar aplicações web no Azure
  - [x] Fazer upload das aplicações na nuvem
- 
+
+**FRONTEND PASSIVO TECNICO**
+
+ - [ ] Criar specification para campos obrigatórios
+ - [ ] Criar specification para tamanho máximo de campo
+ - [ ]
+
+**FRONTEND PASSIVO TECNICO**
+
+ - [x] Criar componente para exibição de mensagens na tela
+ - [x] Criar componente para gerenciar eventos
+ - [x] Criar *guard* para redirecionar o usuário logado às suas respectivas funcionalidades
+ - [x] Criar *guard* para redirecionar o usuário não logado para a tela de login
+ - [x] Criar cabeçalho da aplicação com logo
+ - [x] Criar máscara para CNPJ
+ - [x] Criar máscara para CPF
+ - [x] Criar máscara para Data
+ - [x] Criar máscara para Números (cross browser)
+ - [x] Criar máscara para RG
+ - [x] Criar máscara para Telefone
+ - [x] Criar máscara para Hora
+ - [x] Criar pipe para Hora
+ - [x] Criar serviço para gerenciar sessões de usuário
+ - [x] Criar validação para CNPJ
+ - [x] Criar validação para CPF
+ - [x] Criar validação para E-mail (crossbworser)
+ - [x] Criar validação para Senha
+ - [x] Criar validação para comparação entre dois campos de senha
+ - [x] Criar validação para RG
+ - [x] Criar validação para Telefone
+ - [x] Criar validação para Hora
+ - [ ] Criar validação
+ - [ ] Criar componente para visualização e upload de imagem
+ - [ ] Criar componente para realização de pagamento
+ - [ ] Aplicar lazy loading para as rotas a nível de módulo
+
 ## TELA INICIAL
 
 **FRONTEND**
 
- - [ ] Criar novo componente *start.component*
- - [ ] Desenvolver template HTML+CSS
- - [ ] Desenvolver lógica do componente
- - [ ] Criar mapeamento de rotas
+ - [x] Criar novo componente *start.component*
+ - [x] Desenvolver template HTML+CSS
+ - [x] Desenvolver lógica do componente
+ - [x] Criar mapeamento de rotas
+
+## TELA DE LOGIN
+
+**BACKEND**
+
+ - [ ] Criar entidade *UsuarioEntity* (Domain)
+ - [ ] Criar controller *UsuarioController* (API)
+ - [ ] Criar classes de service, request e response (APPLICATION)
+ - [ ] Configurar entidade no *AutoMapper* (API)
+ - [ ] Configurar classes no *Ninject* (API)
+ - [ ] Criar *Mapping* para configuração de tabela no banco de dados (DATA)
+ - [ ] Criar repository "UsuarioRepository" (DATA)
+ - [ ] Criar validation
+ - [ ] Globalizar textos
+
+**FRONTEND**
+
+- [x] Criar novo componente *login.component*
+- [x] Desenvolver template HTML+CSS
+- [x] Desenvolver lógica do componente
+- [x] Criar mapeamento de rotas
