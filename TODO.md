@@ -1,5 +1,15 @@
 # Lista de tarefas:
 
+## DOCUMENTAÇÃO
+
+- [x] Criar arquivo README.md com a lista de documentos no repositório
+- [x] Criar mapa de funcionalidades
+- [x] Criar arquivo TODO.md com as tarefas a serem desenvolvidas e estimativa em horas
+- [x] Criar arquivo ARCHITECTURE.md listando todas as tecnologias planejadas para esta solução
+- [ ] Criar roteiro de testes unitários para Backend
+- [ ] Criar roteiro de testes unitários para Frontend
+- [ ] Criar roteiro de testes integrados
+
 ## PREPARAÇÃO
 
 **BACKEND - CRIAR CAMADA DE API**
@@ -57,14 +67,22 @@
  - [ ] Configurar service e envio de E-mail no Azure
  - [ ] Configurar sercivo de pagamento no Azure
 
-**FRONTEND PASSIVO TECNICO**
+**FRONTEND PASSIVO TÉCNICO**
 
  - [ ] Criar specification para campos obrigatórios
  - [ ] Criar specification para tamanho máximo de campo
+ - [ ] Criar specification para validação de CNPJ
+ - [ ] Criar specification para validação de CPF
+ - [ ] Criar specification para validação de Email
+ - [ ] Criar specification para validação de RG
+ - [ ] Criar specification para validação de Telefone
+ - [ ] Criar specification para validação de Imagens
+ - [ ] Criar specification para validação de intervalo de datas
+ - [ ] Criar specification para validação de intervalo de horários
  - [ ] Criar api para envio de email
  - [ ] Criar api para a realização de pagamento
 
-**FRONTEND PASSIVO TECNICO**
+**FRONTEND PASSIVO TÉCNICO**
 
  - [x] Criar componente para exibição de mensagens na tela
  - [x] Criar componente para gerenciar eventos
@@ -89,8 +107,8 @@
  - [x] Criar validação para Telefone
  - [x] Criar validação para Hora
  - [ ] Criar validação para upload de imagens
- - [ ] Criar validação de data maior que outra data
- - [ ] Criar validação de horário maior que outro horário
+ - [ ] Criar validação para intervalo de datas
+ - [ ] Criar validação para intervalo de horários
  - [ ] Criar componente para visualização e upload de imagem
  - [ ] Criar componente para realização de pagamento
  - [ ] Aplicar lazy loading para as rotas a nível de módulo
@@ -279,3 +297,64 @@
 - [ ] Desenvolver lógica do componente *locais-rejeitar*
 - [ ] Criar service para comunicação com API
 - [ ] Criar mapeamento de rotas
+
+## TESTES UNITÁRIOS
+
+**BACKEND**
+
+ - [ ] Criar teste para specification de campos obrigatórios
+ - [ ] Criar teste para specification de tamanho máximo de campo
+ - [ ] Criar teste para specification de validação de CNPJ
+ - [ ] Criar teste para specification de validação de CPF
+ - [ ] Criar teste para specification de validação de Email
+ - [ ] Criar teste para specification de validação de RG
+ - [ ] Criar teste para specification de validação de Telefone
+ - [ ] Criar teste para specification de validação de Imagens
+ - [ ] Criar teste para specification de validação de intervalo de datas
+ - [ ] Criar teste para specification de validação de intervalo de horários
+ - [ ] Criar teste para api de envio de email
+ - [ ] Criar teste para api de realização de pagamento
+ - [ ] Criar testes para os métodos da controller Usuario (API)
+ - [ ] Criar testes para os métodos da controller Locais (API)
+ - [ ] Criar testes para os métodos da controller Reservas (API)
+ - [ ] Criar testes para os métodos do service Usuario (API)
+ - [ ] Criar testes para os métodos do service Locais (API)
+ - [ ] Criar testes para os métodos do service Reservas (API)
+ - [ ] Criar testes para os métodos do repository Usuario (API)
+ - [ ] Criar testes para os métodos do repository Locais (API)
+ - [ ] Criar testes para os métodos do repository Reservas (API)
+ - [ ] Criar testes para o validation Usuario (API)
+ - [ ] Criar testes para o validation Locais (API)
+ - [ ] Criar testes para o validation Reservas (API)
+
+**FRONTEND**
+
+ - [ ] Criar teste para componente de exibição de mensagens na tela
+ - [ ] Criar teste para componente de gerenciamento de eventos
+ - [ ] Criar teste para *guard* de redirecionar de usuário logado às suas respectivas funcionalidades
+ - [ ] Criar teste para *guard* de redirecionamento de usuário não logado para a tela de login
+ - [ ] Criar teste para cabeçalho da aplicação com logo
+ - [ ] Criar teste para máscara de CNPJ
+ - [ ] Criar teste para máscara de CPF
+ - [ ] Criar teste para máscara de Data
+ - [ ] Criar teste para máscara de Números (cross browser)
+ - [ ] Criar teste para máscara de RG
+ - [ ] Criar teste para máscara de Telefone
+ - [ ] Criar teste para máscara de Hora
+ - [ ] Criar teste para pipe de Hora
+ - [ ] Criar teste para serviço de gerenciamento de sessões de usuário
+ - [ ] Criar teste para validação de CNPJ
+ - [ ] Criar teste para validação de CPF
+ - [ ] Criar teste para validação de E-mail (crossbworser)
+ - [ ] Criar teste para validação de Senha
+ - [ ] Criar teste para validação de senha igual à outro campo de senha
+ - [ ] Criar teste para validação de RG
+ - [ ] Criar teste para validação de Telefone
+ - [ ] Criar teste para validação de Hora
+ - [ ] Criar teste para validação de upload de imagens
+ - [ ] Criar teste para validação de intervalo de datas
+ - [ ] Criar teste para validação de intervalo de horários
+ - [ ] Criar teste para componente de visualização e upload de imagem
+ - [ ] Criar teste para componente de realização de pagamento
+ - [ ] Criar teste para lazy loading de rotas
+ - [ ] Criar teste para componente de globalização
