@@ -415,3 +415,25 @@
  - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso não preencha o campo -Razão Social- se cadastrando como RH*
  - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso não preencha o campo -CNPJ- se cadastrando como Administrador*
  - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso não preencha o campo -CNPJ- se cadastrando como RH*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso não preencha o campo -E-mail-* 
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso não preencha o campo -Senha-* 
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso não preencha o campo -Nome- se cadastrando como profissional*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso não preencha o campo -Número do celular- se cadastrando como profissional*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso não preencha o campo -CPF- se cadastrando como profissional*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso não preencha o campo -RG- se cadastrando como profissional*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso o CNPJ informado seja inválido*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso o E-mail informado seja inválido*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso a Senha informada não contenha pelo menos uma letra, um número e um caractere especial*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso o Número de celular informado seja inválido*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso o CPF informado seja inválido*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de cadastro caso o RG informado seja inválido*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de recuperar senha caso o Email informado seja inválido*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de recuperar senha de administrador caso o Email informado não seja encontrado na base com o tipo de usuário administrador associado*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de recuperar senha de rh caso o Email informado não seja encontrado na base com o tipo de usuário rh associado*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de recuperar senha de profissional caso o Email informado não seja encontrado na base com o tipo de usuário profissional associado*
+ - [ ] Criar teste para o caso de uso: *O usuário deve receber um alerta na tela de recuperar senha informando que ele recebeu um e-mail com instruções para a recuperação de senha caso o email informado seja encontrado na base*
+ - [ ] Criar teste para o caso de uso: *O usuário deve ser redirecionado para a tela de -locais-consultar- caso efetue login como administrador*
+ - [ ] Criar teste para o caso de uso: *O usuário deve poder acessar a tela de -locais-consultar- quando logado através do menu superior direito*
+ - [ ] Criar teste para o caso de uso: *O usuário deve poder acessar a tela de -locais-consultar- quando logado como administrador através da url -administrador/locais/consultar-*
+ 
+ [TODO: Mudar os testes integrados para documento específico]
