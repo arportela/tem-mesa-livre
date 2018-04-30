@@ -54,6 +54,8 @@
  - [x] Configurar projetos frontend para publicação
  - [x] Criar aplicações web no Azure
  - [x] Fazer upload das aplicações na nuvem
+ - [ ] Configurar service e envio de E-mail no Azure
+ - [ ] Configurar sercivo de pagamento no Azure
 
 **FRONTEND PASSIVO TECNICO**
 
@@ -175,20 +177,101 @@
 
 **FRONTEND**
 
-- [x] Criar novo componente *locais-consultar.component*
-- [x] Desenvolver template HTML+CSS para *locais-consultar*
-- [x] Desenvolver lógica do componente *locais-consultar*
-- [x] Criar novo componente *locais-alterar.component*
-- [x] Desenvolver template HTML+CSS para *locais-alterar*
-- [x] Desenvolver lógica do componente *locais-alterar*
-- [x] Criar novo componente *locais-alterar.criar*
-- [x] Desenvolver template HTML+CSS para *locais-criar*
-- [x] Desenvolver lógica do componente *locais-criar*
-- [x] Criar novo componente *locais-alterar.excluir*
-- [x] Desenvolver template HTML+CSS para *locais-excluir*
-- [x] Desenvolver lógica do componente *locais-excluir
-- [x] Criar novo modal *locais-manter.modal.criar* para adicionar mais de um período por local
-- [x] Desenvolver template HTML+CSS para *locais-manter.modal.criar*
-- [x] Desenvolver lógica do componente *locais-manter.modal.criar**
-- [x] Criar service para comunicação com API
-- [x] Criar mapeamento de rotas
+- [ ] Criar novo componente *locais-consultar.component*
+- [ ] Desenvolver template HTML+CSS para *locais-consultar*
+- [ ] Desenvolver lógica do componente *locais-consultar*
+- [ ] Criar novo componente *locais-alterar.component*
+- [ ] Desenvolver template HTML+CSS para *locais-alterar*
+- [ ] Desenvolver lógica do componente *locais-alterar*
+- [ ] Criar novo componente *locais-alterar.criar*
+- [ ] Desenvolver template HTML+CSS para *locais-criar*
+- [ ] Desenvolver lógica do componente *locais-criar*
+- [ ] Criar novo componente *locais-alterar.excluir*
+- [ ] Desenvolver template HTML+CSS para *locais-excluir*
+- [ ] Desenvolver lógica do componente *locais-excluir
+- [ ] Criar novo modal *locais-manter.modal.criar* para adicionar mais de um período por local
+- [ ] Desenvolver template HTML+CSS para *locais-manter.modal.criar*
+- [ ] Desenvolver lógica do componente *locais-manter.modal.criar*
+- [ ] Criar service para comunicação com API
+- [ ] Criar mapeamento de rotas
+
+## TELA DE PROFISSIONAIS
+
+**BACKEND**
+
+ - [ ] Criar entidade *ProfissionalEntity* (Domain)
+ - [ ] Criar controller *ProfissionalController* (API)
+ - [ ] Criar classes de service, request e response (APPLICATION)
+ - [ ] Configurar entidade no *AutoMapper* (API)
+ - [ ] Configurar classes no *Ninject* (API)
+ - [ ] Criar *Mapping* para configuração de tabela no banco de dados (DATA)
+ - [ ] Criar repository *ProfissionalRepository* (DATA)
+ - [ ] Criar validation
+ - [ ] Globalizar textos
+
+**FRONTEND**
+
+- [ ] Criar novo componente *profissional-consultar.component*
+- [ ] Desenvolver template HTML+CSS para *profissional-consultar*
+- [ ] Desenvolver lógica do componente *profissional-consultar*
+- [ ] Criar novo componente *profissional-alterar.component*
+- [ ] Desenvolver template HTML+CSS para *profissional-alterar*
+- [ ] Desenvolver lógica do componente *profissional-alterar*
+- [ ] Criar novo componente *profissional-alterar.criar*
+- [ ] Desenvolver template HTML+CSS para *profissional-criar*
+- [ ] Desenvolver lógica do componente *profissional-criar*
+- [ ] Criar novo componente *profissional-alterar.excluir*
+- [ ] Desenvolver template HTML+CSS para *profissional-excluir*
+- [ ] Desenvolver lógica do componente *profissional-excluir*
+- [ ] Criar service para comunicação com API
+- [ ] Criar mapeamento de rotas
+
+## PESQUISA DE PROFISSIONAIS
+
+**FRONTEND**
+- [ ] Criar componente de pesquisa para adicionar à tela de *profissional-consultar*
+- [ ] Criar novo componente *profissional-detalhar.excluir*
+- [ ] Desenvolver template HTML+CSS para *profissional-detalhar*
+- [ ] Desenvolver lógica do componente *profissional-detalhar*
+
+## PESQUISA DE LOCAIS
+
+**FRONTEND**
+- [ ] Criar componente de pesquisa para adicionar à tela de *locais-consultar*
+- [ ] Criar novo componente *locais-detalhar.excluir*
+- [ ] Desenvolver template HTML+CSS para *locais-detalhar*
+- [ ] Desenvolver lógica do componente *locais-detalhar*
+
+## TELA DE RESERVAS
+
+**BACKEND**
+
+ - [ ] Criar entidade *reservasEntity* (Domain)
+ - [ ] Criar controller *reservasController* (API)
+ - [ ] Criar classes de service, request e response (APPLICATION)
+ - [ ] Configurar entidade no *AutoMapper* (API)
+ - [ ] Configurar classes no *Ninject* (API)
+ - [ ] Criar *Mapping* para configuração de tabela no banco de dados (DATA)
+ - [ ] Criar repository *ReservasRepository* (DATA)
+ - [ ] Criar validation
+ - [ ] Globalizar textos
+
+**FRONTEND**
+
+- [ ] Criar novo componente *reservas-consultar.component*
+- [ ] Desenvolver template HTML+CSS para *locais-consultar*
+- [ ] Desenvolver lógica do componente *locais-consultar*
+- [ ] Criar novo componente *locais-alterar.component*
+- [ ] Desenvolver template HTML+CSS para *locais-alterar*
+- [ ] Desenvolver lógica do componente *locais-alterar*
+- [ ] Criar novo componente *locais-alterar.criar*
+- [ ] Desenvolver template HTML+CSS para *locais-criar*
+- [ ] Desenvolver lógica do componente *locais-criar*
+- [ ] Criar novo componente *locais-alterar.excluir*
+- [ ] Desenvolver template HTML+CSS para *locais-excluir*
+- [ ] Desenvolver lógica do componente *locais-excluir
+- [ ] Criar novo modal *locais-manter.modal.criar* para adicionar mais de um período por local
+- [ ] Desenvolver template HTML+CSS para *locais-manter.modal.criar*
+- [ ] Desenvolver lógica do componente *locais-manter.modal.criar*
+- [ ] Criar service para comunicação com API
+- [ ] Criar mapeamento de rotas
