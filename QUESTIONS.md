@@ -13,4 +13,8 @@
 
 4 - Como a aplicação lida com dados sensíveis, é extremamente recomendável a utilização de certificado digital.
 
-5 - A implemementação de testes unitários e integrados não foi feita na primeira entrega devido ao prazo dado para a mesma, já que não se tratava de um prazo negociável
+5 - A implemementação de testes unitários e integrados não foi feita na primeira entrega devido ao prazo dado para a mesma, já que não se tratava de um prazo negociável.
+
+6 - O cronograma foi baseado na carga horária mínima de 20 horas semanais, carga essa que pode ser negociada.
+
+7 - O projeto está sendo desenvolvido sem levar em conta as necessidades de identidade visual conforme disposto no documento de requisitos.
