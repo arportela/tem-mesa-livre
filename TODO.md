@@ -1,384 +1,393 @@
-# Lista de tarefas:
+# Lista de tarefas: (153,4 Hora(s))
 
-## DOCUMENTAÇÃO
+## DOCUMENTAÇÃO (7,7 Hora(s))
 
-- [x] (0,5 Horas) - Criar arquivo README.md com a lista de documentos no repositório
-- [x] (0,5 Horas) - Criar mapa de funcionalidades
-- [x] (0,5 Horas) - Criar arquivo TODO.md com as tarefas a serem desenvolvidas e estimativa em horas
-- [x] (0,5 Horas) - Criar arquivo ARCHITECTURE.md listando todas as tecnologias planejadas para esta solução
-- [ ] (0,5 Horas) - Criar roteiro de testes unitários para Backend
-- [ ] (0,5 Horas) - Criar roteiro de testes unitários para Frontend
-- [ ] (0,5 Horas) - Criar roteiro de testes integrados
+- [x] (0,2 Hora(s)) - Criar arquivo README.md com a lista de documentos no repositório
+- [x] (1 Hora(s)) - Criar mapa de funcionalidades
+- [x] (2 Hora(s)) - Criar arquivo TODO.md com as tarefas a serem desenvolvidas e estimativa em horas
+- [x] (0,5 Hora(s)) - Criar arquivo ARCHITECTURE.md listando todas as tecnologias planejadas para esta solução
+- [ ] (1 Hora(s)) - Criar roteiro de testes unitários para Backend
+- [ ] (1 Hora(s)) - Criar roteiro de testes unitários para Frontend
+- [ ] (2 Hora(s)) - Criar roteiro de testes integrados
 
-## PREPARAÇÃO
+## PREPARAÇÃO (55,7 Hora(s))
 
-**BACKEND - CRIAR CAMADA DE API**
+**BACKEND - CRIAR CAMADA DE API** (3,8 Hora(s))
 
-  - [x] Criar projeto do tipo *WEBAPI2* no Visual Studio 2017
-  - [x] Configurar OAuth
-  - [x] Configurar Ninject
-  - [x] Implementar pattern *DEPENDENCY INJECTION*
-  - [x] Configurar AutoMapper
-  - [x] Configurar demais dependências
-  - [x] Versionar projeto no Github
+  - [x] (0,1 Hora(s)) - Criar projeto do tipo *WEBAPI2* no Visual Studio 2017
+  - [x] (1 Hora(s)) - Configurar OAuth
+  - [x] (1 Hora(s)) - Configurar Ninject
+  - [x] (0,5 Hora(s)) - Configurar AutoMapper
+  - [x] (1 Hora(s)) - Configurar demais dependências
+  - [x] (0,2 Hora(s)) - Versionar projeto no Github
   
-**BACKEND - CRIAR CAMADA DE APPLICATION**
+**BACKEND - CRIAR CAMADA DE APPLICATION**  (1,8 Hora(s))
 
- - [x] Criar projeto do tipo *CLASS LIBRARY* no Visual Studio 2017
- - [x] Definir estrutura da camada
- - [x] Configurar dependências
- - [x] Versionar projeto no Github
+ - [x] (0,1 Hora(s)) - Criar projeto do tipo *CLASS LIBRARY* no Visual Studio 2017
+ - [x] (0,5 Hora(s)) - Definir estrutura da camada
+ - [x] (1 Hora(s)) - Configurar dependências
+ - [x] (0,2 Hora(s)) - Versionar projeto no Github
  
-**BACKEND - CRIAR CAMADA DE DATA**
+**BACKEND - CRIAR CAMADA DE DATA**  (1,8 Hora(s))
 
- - [x] Criar projeto do tipo *CLASS LIBRARY* no Visual Studio 2017
- - [x] Configurar Entity Framework
- - [x] Configurar repositório base
- - [x] Versionar projeto no Github
+ - [x] (0,1 Hora(s)) - Criar projeto do tipo *CLASS LIBRARY* no Visual Studio 2017
+ - [x] (1 Hora(s)) - Configurar Entity Framework
+ - [x] (0,5 Hora(s)) - Configurar repositório base
+ - [x] (0,2 Hora(s)) - Versionar projeto no Github
 
-**BACKEND - CRIAR CAMADA DE DOMAIN**
+**BACKEND - CRIAR CAMADA DE DOMAIN**  (3,3 Hora(s))
 
- - [x] Criar projeto do tipo *CLASS LIBRARY* no Visual Studio 2017
- - [x] Definir entidades
- - [ ] Implementar pattern *VALIDATION*
- - [ ] Implementar pattern *SPECIFICATION*
- - [x] Versionar projeto no Github
+ - [x] (0,1 Hora(s)) - Criar projeto do tipo *CLASS LIBRARY* no Visual Studio 2017
+ - [x] (1 Hora(s)) - Definir entidades
+ - [ ] (1 Hora(s)) - Implementar pattern *VALIDATION*
+ - [ ] (1 Hora(s)) - Implementar pattern *SPECIFICATION*
+ - [x] (0,2 Hora(s)) - Versionar projeto no Github
  
- **BACKEND - CRIAR CAMADA DE GLOBALIZAÇÃO**
+ **BACKEND - CRIAR CAMADA DE GLOBALIZAÇÃO**  (0,3 Hora(s))
  
- - [x] Criar projeto do tipo *CLASS LIBRARY* no Visual Studio 2017
- - [x] Versionar projeto no Github
+ - [x] (0,1 Hora(s)) - Criar projeto do tipo *CLASS LIBRARY* no Visual Studio 2017
+ - [x] (0,2 Hora(s)) - Versionar projeto no Github
  
-**FRONTEND - CRIAR APLICAÇÃO ANGULAR 5**
+**FRONTEND - CRIAR APLICAÇÃO ANGULAR 5**  (1,2 Hora(s))
 
- - [x] Criar projeto do tipo *Typescript* no Visual Studio 2017
- - [x] Criar aplicação padrão pelo Angular CLI
- - [x] Adicionar biblioteca *bootstrap* para estilos
- - [x] Adicionar biblioteca *ngx-popover* para utilização de popover
- - [x] Adicionar biblioteca *ngx-bootstrap* para utilização de modais
- - [x] Versionar projeto no Github
+ - [x] (0,1 Hora(s)) - Criar projeto do tipo *Typescript* no Visual Studio 2017
+ - [x] (0,1 Hora(s)) - Criar aplicação padrão pelo Angular CLI
+ - [x] (0,1 Hora(s)) - Adicionar biblioteca *bootstrap* para estilos
+ - [x] (0,1 Hora(s)) - Adicionar biblioteca *ngx-popover* para utilização de popover
+ - [x] (0,1 Hora(s)) - Adicionar biblioteca *ngx-bootstrap* para utilização de modais
+ - [x] (0,5 Hora(s)) - Instalar dependências com o npm install
+ - [x] (0,2 Hora(s)) - Versionar projeto no Github
  
-**INFRAESTRUTURA**
+**INFRAESTRUTURA**  (5,5 Hora(s))
 
- - [x] Configurar projetos backend para publicação
- - [x] Configurar projetos frontend para publicação
- - [x] Criar aplicações web no Azure
- - [x] Fazer upload das aplicações na nuvem
- - [ ] Configurar service de envio de E-mail no Azure
- - [ ] Configurar service de pagamento no Azure
+ - [x] (1 Hora(s)) - Configurar projetos backend para publicação
+ - [x] (1 Hora(s)) - Configurar projetos frontend para publicação
+ - [x] (0,3 Hora(s)) - Criar aplicações web no Azure
+ - [x] (0,2 Hora(s)) - Fazer upload das aplicações na nuvem
+ - [ ] (1 Hora(s)) - Configurar service de envio de E-mail no Azure
+ - [ ] (2 Hora(s)) - Configurar service de pagamento no Azure
 
-**BACKEND PASSIVO TÉCNICO**
+**BACKEND PASSIVO TÉCNICO**  (13 Hora(s))
 
- - [ ] Criar specification para campos obrigatórios
- - [ ] Criar specification para tamanho máximo de campo
- - [ ] Criar specification para validação de CNPJ
- - [ ] Criar specification para validação de CPF
- - [ ] Criar specification para validação de Email
- - [ ] Criar specification para validação de RG
- - [ ] Criar specification para validação de Telefone
- - [ ] Criar specification para validação de Imagens
- - [ ] Criar specification para validação de intervalo de datas
- - [ ] Criar specification para validação de intervalo de horários
- - [ ] Criar api para envio de email
- - [ ] Criar api para a realização de pagamento
+ - [ ] (0,5 Hora(s)) - Criar specification para campos obrigatórios
+ - [ ] (0,5 Hora(s)) - Criar specification para tamanho máximo de campo
+ - [ ] (1 Hora(s)) - Criar specification para validação de CNPJ
+ - [ ] (1 Hora(s)) - Criar specification para validação de CPF
+ - [ ] (1 Hora(s)) - Criar specification para validação de Email
+ - [ ] (0,5 Hora(s)) - Criar specification para validação de RG
+ - [ ] (0,5 Hora(s)) - Criar specification para validação de Telefone
+ - [ ] (1 Hora(s)) - Criar specification para validação de Imagens
+ - [ ] (1 Hora(s)) - Criar specification para validação de intervalo de datas
+ - [ ] (2 Hora(s)) - Criar specification para validação de nome de usuario único na base
+ - [ ] (1 Hora(s)) - Criar specification para validação de email único na base
+ - [ ] (1 Hora(s)) - Criar specification para validação de intervalo de datas
+ - [ ] (1 Hora(s)) - Criar specification para validação de intervalo de horários
+ - [ ] (0,5 Hora(s)) - Criar api para envio de email
+ - [ ] (0,5 Hora(s)) - Criar api para a realização de pagamento
 
-**FRONTEND PASSIVO TÉCNICO**
+**FRONTEND PASSIVO TÉCNICO**  (25 Hora(s))
 
- - [x] Criar componente para exibição de mensagens na tela
- - [x] Criar componente para gerenciar eventos
- - [x] Criar *guard* para redirecionar o usuário logado às suas respectivas funcionalidades
- - [x] Criar *guard* para redirecionar o usuário não logado para a tela de login
- - [x] Criar cabeçalho da aplicação com logo
- - [x] Criar máscara para CNPJ
- - [x] Criar máscara para CPF
- - [x] Criar máscara para Data
- - [x] Criar máscara para Números (cross browser)
- - [x] Criar máscara para RG
- - [x] Criar máscara para Telefone
- - [x] Criar máscara para Hora
- - [x] Criar pipe para Hora
- - [x] Criar serviço para gerenciar sessões de usuário
- - [x] Criar validação para CNPJ
- - [x] Criar validação para CPF
- - [x] Criar validação para E-mail (crossbworser)
- - [x] Criar validação para Senha
- - [x] Criar validação de senha igual à outro campo de senha
- - [x] Criar validação para RG
- - [x] Criar validação para Telefone
- - [x] Criar validação para Hora
- - [ ] Criar validação para upload de imagens
- - [ ] Criar validação para intervalo de datas
- - [ ] Criar validação para intervalo de horários
- - [ ] Criar componente para visualização e upload de imagem
- - [ ] Criar componente para realização de pagamento
- - [ ] Aplicar lazy loading para as rotas a nível de módulo
- - [x] Definir estrutura HTML padrão para formulários
- - [ ] Criar componente para globalização
+ - [x] (0,5 Hora(s)) - Criar componente para exibição de mensagens na tela
+ - [x] (0,5 Hora(s)) - Criar componente para gerenciar eventos
+ - [x] (0,5 Hora(s)) - Criar *guard* para redirecionar o usuário logado às suas respectivas funcionalidades
+ - [x] (0,5 Hora(s)) - Criar *guard* para redirecionar o usuário não logado para a tela de login
+ - [x] (1 Hora(s)) - Criar cabeçalho da aplicação com logo
+ - [x] (0,5 Hora(s)) - Criar máscara para CNPJ
+ - [x] (0,5 Hora(s)) - Criar máscara para CPF
+ - [x] (2 Hora(s)) - Criar máscara para Data
+ - [x] (1 Hora(s)) - Criar máscara para Números (cross browser)
+ - [x] (0,5 Hora(s)) - Criar máscara para RG
+ - [x] (0,5 Hora(s)) - Criar máscara para Telefone
+ - [x] (0,5 Hora(s)) - Criar máscara para Hora
+ - [x] (0,5 Hora(s)) - Criar pipe para Hora
+ - [x] (1 Hora(s)) - Criar serviço para gerenciar sessões de usuário
+ - [x] (1 Hora(s)) - Criar validação para CNPJ
+ - [x] (1 Hora(s)) - Criar validação para CPF
+ - [x] (0,7 Hora(s)) - Criar validação para E-mail (crossbworser)
+ - [x] (0,5 Hora(s)) - Criar validação para Senha
+ - [x] (0,8 Hora(s)) - Criar validação de senha igual à outro campo de senha
+ - [x] (0,5 Hora(s)) - Criar validação para RG
+ - [x] (0,5 Hora(s)) - Criar validação para Telefone
+ - [x] (0,5 Hora(s)) - Criar validação para Hora
+ - [ ] (1 Hora(s)) - Criar validação para upload de imagens
+ - [ ] (1 Hora(s)) - Criar validação para intervalo de datas
+ - [ ] (1 Hora(s)) - Criar validação para intervalo de horários
+ - [ ] (2 Hora(s)) - Criar componente para visualização e upload de imagem
+ - [ ] (3 Hora(s)) - Criar componente para realização de pagamento
+ - [ ] (0,5 Hora(s)) - Aplicar lazy loading para as rotas a nível de módulo
+ - [x] (0,5 Hora(s)) - Definir estrutura HTML padrão para formulários
+ - [ ] (0,5 Hora(s)) - Criar componente para globalização
 
-## TELA INICIAL
+## TELA INICIAL  (1,3 Hora(s))
 
-**FRONTEND**
+**FRONTEND**  (1,3 Hora(s))
 
- - [x] Criar novo componente *start.component*
- - [x] Desenvolver template HTML+CSS
- - [x] Desenvolver lógica do componente
- - [x] Criar mapeamento de rotas
+ - [x] (0,2 Hora(s)) - Criar novo componente *start.component*
+ - [x] (0,5 Hora(s)) - Desenvolver template HTML+CSS
+ - [x] (0,5 Hora(s)) - Desenvolver lógica do componente
+ - [x] (0,1 Hora(s)) - Criar mapeamento de rotas
 
-## TELA DE LOGIN
+## TELA DE LOGIN  (5,7 Hora(s))
 
-**BACKEND**
+**BACKEND**  (2,4 Hora(s))
 
- - [x] Criar entidade *UsuarioEntity* (Domain)
- - [x] Criar controller *UsuarioController* (API)
- - [x] Criar classes de service, request e response (APPLICATION)
- - [x] Configurar entidade no *AutoMapper* (API)
- - [x] Configurar classes no *Ninject* (API)
- - [x] Criar *Mapping* para configuração de tabela no banco de dados (DATA)
- - [x] Criar repository *UsuarioRepository* (DATA)
- - [ ] Criar validation
- - [ ] Globalizar textos
+ - [x] (0,1 Hora(s)) - Criar entidade *UsuarioEntity* (Domain)
+ - [x] (0,2 Hora(s)) - Criar controller *UsuarioController* (API)
+ - [x] (0,5 Hora(s)) - Criar classes de service, request e response (APPLICATION)
+ - [x] (0,1 Hora(s)) - Configurar entidade no *AutoMapper* (API)
+ - [x] (0,1 Hora(s)) - Configurar classes no *Ninject* (API)
+ - [x] (0,2 Hora(s)) - Criar *Mapping* para configuração de tabela no banco de dados (DATA)
+ - [x] (0,5 Hora(s)) - Criar repository *UsuarioRepository* (DATA)
+ - [ ] (0,5 Hora(s)) - Criar validation
+ - [ ] (0,2 Hora(s)) - Globalizar textos
 
-**FRONTEND**
+**FRONTEND**  (3,3 Hora(s))
 
-- [x] Criar novo componente *login.component*
-- [x] Desenvolver template HTML+CSS
-- [x] Desenvolver lógica do componente
-- [x] Criar mapeamento de rotas
-- [x] Fazer integração com backend
+- [x] (0,2 Hora(s)) - Criar novo componente *login.component*
+- [x] (0,5 Hora(s)) - Desenvolver template HTML+CSS
+- [x] (2 Hora(s)) - Desenvolver lógica do componente
+- [x] (0,1 Hora(s)) - Criar mapeamento de rotas
+- [x] (0,5 Hora(s)) - Fazer integração com backend
 
-## TELA DE CADASTRO
+## TELA DE CADASTRO  (5,3 Hora(s))
 
-**BACKEND**
+**BACKEND**  (1 Hora(s))
 
- - [x] Adidionar método *Create* em *UsuarioController* (API)
- - [x] Adicionar método *Create* no service (APPLICATION)
- - [x] Adicionar método *Create* em *UsuarioRepository* (DATA)
- - [ ] Globalizar textos
+ - [x] (0,2 Hora(s)) - Adidionar método *Create* em *UsuarioController* (API)
+ - [x] (0,3 Hora(s)) - Adicionar método *Create* no service (APPLICATION)
+ - [x] (0,4 Hora(s)) - Adicionar método *Create* em *UsuarioRepository* (DATA)
+ - [ ] (0,1 Hora(s)) - Globalizar textos
 
-**FRONTEND**
+**FRONTEND**  (4,3 Hora(s))
 
-- [x] Criar novo componente *cadastro.component*
-- [x] Desenvolver template HTML+CSS
-- [x] Desenvolver lógica do componente
-- [x] Criar service para comunicação com API
-- [x] Criar mapeamento de rotas
-- [x] Fazer integração com backend
+- [x] (0,2 Hora(s)) - Criar novo componente *cadastro.component*
+- [x] (0,5 Hora(s)) - Desenvolver template HTML+CSS
+- [x] (2,5 Hora(s)) - Desenvolver lógica do componente
+- [x] (0,5 Hora(s)) - Criar service para comunicação com API
+- [x] (0,1 Hora(s)) - Criar mapeamento de rotas
+- [x] (0,5 Hora(s)) - Fazer integração com backend
 
-## TELA DE RECUPERAÇÃO DE SENHA
+## TELA DE RECUPERAÇÃO DE SENHA  (3,8 Hora(s))
 
-**BACKEND**
+**BACKEND**  (1 Hora(s))
 
- - [x] Adidionar método *UpdateSenha* em *UsuarioController* (API)
- - [x] Adicionar método *UpdateSenha* no service (APPLICATION)
- - [x] Adicionar método *GetByEmail* "UsuarioRepository" (DATA)
- - [ ] Globalizar textos
+ - [x] (0,2 Hora(s)) - Adidionar método *UpdateSenha* em *UsuarioController* (API)
+ - [x] (0,3 Hora(s)) - Adicionar método *UpdateSenha* no service (APPLICATION)
+ - [x] (0,4 Hora(s)) - Adicionar método *GetByEmail* "UsuarioRepository" (DATA)
+ - [ ] (0,1 Hora(s)) - Globalizar textos
 
-**FRONTEND**
+**FRONTEND**  (2,8 Hora(s))
 
-- [x] Criar novo componente *recuperar-senha.component*
-- [x] Desenvolver template HTML+CSS
-- [x] Desenvolver lógica do componente
-- [x] Criar service para comunicação com API
-- [x] Criar mapeamento de rotas
-- [x] Fazer integração com backend
+- [x] (0,2 Hora(s)) - Criar novo componente *recuperar-senha.component*
+- [x] (0,5 Hora(s)) - Desenvolver template HTML+CSS
+- [x] (1 Hora(s)) - Desenvolver lógica do componente
+- [x] (0,5 Hora(s)) - Criar service para comunicação com API
+- [x] (0,1 Hora(s)) - Criar mapeamento de rotas
+- [x] (0,5 Hora(s)) - Fazer integração com backend
 
-## TELA DE LOCAIS
+## TELA DE LOCAIS  (10,1 Hora(s))
 
-**BACKEND**
+**BACKEND**  (2,4 Hora(s))
 
- - [x] Criar entidade *LocaisEntity* (Domain)
- - [x] Criar controller *LocaisController* (API)
- - [x] Criar classes de service, request e response (APPLICATION)
- - [x] Configurar entidade no *AutoMapper* (API)
- - [x] Configurar classes no *Ninject* (API)
- - [x] Criar *Mapping* para configuração de tabela no banco de dados (DATA)
- - [x] Criar repository *LocaisRepository* (DATA)
- - [ ] Criar validation
- - [ ] Globalizar textos
+ - [x] (0,1 Hora(s)) - Criar entidade *LocaisEntity* (Domain)
+ - [x] (0,2 Hora(s)) - Criar controller *LocaisController* (API)
+ - [x] (0,5 Hora(s)) - Criar classes de service, request e response (APPLICATION)
+ - [x] (0,1 Hora(s)) - Configurar entidade no *AutoMapper* (API)
+ - [x] (0,1 Hora(s)) - Configurar classes no *Ninject* (API)
+ - [x] (0,2 Hora(s)) - Criar *Mapping* para configuração de tabela no banco de dados (DATA)
+ - [x] (0,5 Hora(s)) - Criar repository *LocaisRepository* (DATA)
+ - [ ] (0,5 Hora(s)) - Criar validation
+ - [ ] (0,2 Hora(s)) - Globalizar textos
 
-**FRONTEND**
+**FRONTEND**  (7,7 Hora(s))
 
-- [x] Criar novo componente *locais-consultar.component*
-- [x] Desenvolver template HTML+CSS para *locais-consultar*
-- [x] Desenvolver lógica do componente *locais-consultar*
-- [x] Criar novo componente *locais-alterar.component*
-- [x] Desenvolver template HTML+CSS para *locais-alterar*
-- [x] Desenvolver lógica do componente *locais-alterar*
-- [x] Criar novo componente *locais-criar.component*
-- [x] Desenvolver template HTML+CSS para *locais-criar*
-- [x] Desenvolver lógica do componente *locais-criar*
-- [x] Criar novo componente *locais-excluir.component*
-- [x] Desenvolver template HTML+CSS para *locais-excluir*
-- [x] Desenvolver lógica do componente *locais-excluir*
-- [x] Criar novo modal *locais-manter.modal.component* para adicionar mais de um período por local
-- [x] Desenvolver template HTML+CSS para *locais-manter.modal.component*
-- [x] Desenvolver lógica do componente *locais-manter.modal.component*
-- [ ] Criar service para comunicação com API
-- [x] Criar mapeamento de rotas
-- [ ] Fazer integração com backend
+- [x] (0,2 Hora(s)) - Criar novo componente *locais-consultar.component*
+- [x] (0,5 Hora(s)) - Desenvolver template HTML+CSS para *locais-consultar*
+- [x] (1 Hora(s)) - Desenvolver lógica do componente *locais-consultar*
+- [x] (0,2 Hora(s)) - Criar novo componente *locais-alterar.component*
+- [x] (0,2 Hora(s)) - Desenvolver template HTML+CSS para *locais-alterar*
+- [x] (0,5 Hora(s)) - Desenvolver lógica do componente *locais-alterar*
+- [x] (0,2 Hora(s)) - Criar novo componente *locais-criar.component*
+- [x] (0,2 Hora(s)) - Desenvolver template HTML+CSS para *locais-criar*
+- [x] (0,5 Hora(s)) - Desenvolver lógica do componente *locais-criar*
+- [x] (0,2 Hora(s)) - Criar novo componente *locais-excluir.component*
+- [x] (0,2 Hora(s)) - Desenvolver template HTML+CSS para *locais-excluir*
+- [x] (0,5 Hora(s)) - Desenvolver lógica do componente *locais-excluir*
+- [x] (0,2 Hora(s)) - Criar novo modal *locais-manter.modal.component* para adicionar mais de um período por local
+- [x] (0,5 Hora(s)) - Desenvolver template HTML+CSS para *locais-manter.modal.component*
+- [x] (1 Hora(s)) - Desenvolver lógica do componente *locais-manter.modal.component*
+- [ ] (0,5 Hora(s)) - Criar service para comunicação com API
+- [x] (0,1 Hora(s)) - Criar mapeamento de rotas
+- [ ] (1 Hora(s)) - Fazer integração com backend
 
-## TELA DE PROFISSIONAIS
+## TELA DE PROFISSIONAIS  (7,5 Hora(s))
 
-**BACKEND**
+**BACKEND**  (2,4 Hora(s))
 
- - [ ] Criar entidade *ProfissionalEntity* (Domain)
- - [ ] Criar controller *ProfissionalController* (API)
- - [ ] Criar classes de service, request e response (APPLICATION)
- - [ ] Configurar entidade no *AutoMapper* (API)
- - [ ] Configurar classes no *Ninject* (API)
- - [ ] Criar *Mapping* para configuração de tabela no banco de dados (DATA)
- - [ ] Criar repository *ProfissionalRepository* (DATA)
- - [ ] Criar validation
- - [ ] Globalizar textos
+ - [ ] (0,1 Hora(s)) - Criar entidade *ProfissionalEntity* (Domain)
+ - [ ] (0,2 Hora(s)) - Criar controller *ProfissionalController* (API)
+ - [ ] (0,5 Hora(s)) - Criar classes de service, request e response (APPLICATION)
+ - [ ] (0,1 Hora(s)) - Configurar entidade no *AutoMapper* (API)
+ - [ ] (0,1 Hora(s)) - Configurar classes no *Ninject* (API)
+ - [ ] (0,2 Hora(s)) - Criar *Mapping* para configuração de tabela no banco de dados (DATA)
+ - [ ] (0,5 Hora(s)) - Criar repository *ProfissionalRepository* (DATA)
+ - [ ] (0,5 Hora(s)) - Criar validation
+ - [ ] (0,2 Hora(s)) - Globalizar textos
 
-**FRONTEND**
+**FRONTEND**  (5,1 Hora(s))
 
-- [ ] Criar novo componente *profissional-consultar.component*
-- [ ] Desenvolver template HTML+CSS para *profissional-consultar*
-- [ ] Desenvolver lógica do componente *profissional-consultar*
-- [ ] Criar novo componente *profissional-alterar.component*
-- [ ] Desenvolver template HTML+CSS para *profissional-alterar*
-- [ ] Desenvolver lógica do componente *profissional-alterar*
-- [ ] Criar novo componente *profissional-alterar.component*
-- [ ] Desenvolver template HTML+CSS para *profissional-excluir*
-- [ ] Desenvolver lógica do componente *profissional-excluir*
-- [ ] Criar service para comunicação com API
-- [ ] Criar mapeamento de rotas
+- [ ] (0,2 Hora(s)) - Criar novo componente *profissional-consultar.component*
+- [ ] (0,5 Hora(s)) - Desenvolver template HTML+CSS para *profissional-consultar*
+- [ ] (1 Hora(s)) - Desenvolver lógica do componente *profissional-consultar*
+- [ ] (0,2 Hora(s)) - Criar novo componente *profissional-alterar.component*
+- [ ] (0,2 Hora(s)) - Desenvolver template HTML+CSS para *profissional-alterar*
+- [ ] (0,5 Hora(s)) - Desenvolver lógica do componente *profissional-alterar*
+- [ ] (0,2 Hora(s)) - Criar novo componente *profissional-alterar.component*
+- [ ] (0,2 Hora(s)) - Desenvolver template HTML+CSS para *profissional-excluir*
+- [ ] (0,5 Hora(s)) - Desenvolver lógica do componente *profissional-excluir*
+- [ ] (0,5 Hora(s)) - Criar service para comunicação com API
+- [ ] (0,1 Hora(s)) - Criar mapeamento de rotas
+- [ ] (1 Hora(s)) - Fazer integração com backend
 
-## PESQUISA DE PROFISSIONAIS
+## PESQUISA DE PROFISSIONAIS  (3,9 Hora(s))
 
-**FRONTEND**
-- [ ] Criar componente de pesquisa para adicionar à tela de *profissional-consultar*
-- [ ] Criar novo componente *profissional-detalhar.component*
-- [ ] Desenvolver template HTML+CSS para *profissional-detalhar*
-- [ ] Desenvolver lógica do componente *profissional-detalhar*
+**FRONTEND**  (4,9 Hora(s))
 
-## PESQUISA DE LOCAIS
+- [ ] (3 Hora(s)) - Criar componente de pesquisa para adicionar à tela de *profissional-consultar*
+- [ ] (0,2 Hora(s)) - Criar novo componente *profissional-detalhar.component*
+- [ ] (0,2 Hora(s)) - Desenvolver template HTML+CSS para *profissional-detalhar*
+- [ ] (0,5 Hora(s)) - Desenvolver lógica do componente *profissional-detalhar*
+- [ ] (1 Hora(s)) - Fazer integração com backend
 
-**FRONTEND**
-- [ ] Criar componente de pesquisa para adicionar à tela de *locais-consultar*
-- [ ] Criar novo componente *locais-detalhar.component*
-- [ ] Desenvolver template HTML+CSS para *locais-detalhar*
-- [ ] Desenvolver lógica do componente *locais-detalhar*
+## PESQUISA DE LOCAIS  (3,9 Hora(s))
 
-## TELA DE RESERVAS
+**FRONTEND**  (4,9 Hora(s))
 
-**BACKEND**
+- [ ] (3 Hora(s)) - Criar componente de pesquisa para adicionar à tela de *locais-consultar*
+- [ ] (0,2 Hora(s)) - Criar novo componente *locais-detalhar.component*
+- [ ] (0,2 Hora(s)) - Desenvolver template HTML+CSS para *locais-detalhar*
+- [ ] (0,5 Hora(s)) - Desenvolver lógica do componente *locais-detalhar*
+- [ ] (1 Hora(s)) - Fazer integração com backend
 
- - [ ] Criar entidade *reservasEntity* (Domain)
- - [ ] Criar controller *reservasController* (API)
- - [ ] Criar classes de service, request e response (APPLICATION)
- - [ ] Configurar entidade no *AutoMapper* (API)
- - [ ] Configurar classes no *Ninject* (API)
- - [ ] Criar *Mapping* para configuração de tabela no banco de dados (DATA)
- - [ ] Criar repository *ReservasRepository* (DATA)
- - [ ] Criar validation
- - [ ] Globalizar textos
+## TELA DE RESERVAS  (12,5 Hora(s))
 
-**FRONTEND**
+**BACKEND**  (2,4 Hora(s))
 
-- [ ] Criar novo componente *locais-reservar.component*
-- [ ] Desenvolver template HTML+CSS para *locais-reservar*
-- [ ] Desenvolver lógica do componente *locais-reservar*
-- [ ] Criar novo componente *reservas-consultar.component*
-- [ ] Desenvolver template HTML+CSS para *locais-consultar*
-- [ ] Desenvolver lógica do componente *locais-consultar*
-- [ ] Criar novo componente *locais-detalhar.component*
-- [ ] Desenvolver template HTML+CSS para *locais-detalhar*
-- [ ] Desenvolver lógica do componente *locais-detalhar*
-- [ ] Criar novo componente *locais-pagar.component*
-- [ ] Desenvolver template HTML+CSS para *locais-pagar*
-- [ ] Desenvolver lógica do componente *locais-pagar*
-- [ ] Criar novo componente *locais-aprovar.component*
-- [ ] Desenvolver template HTML+CSS para *locais-aprovar*
-- [ ] Desenvolver lógica do componente *locais-aprovar*
-- [ ] Criar novo componente *locais-rejeitar.component*
-- [ ] Desenvolver template HTML+CSS para *locais-rejeitar*
-- [ ] Desenvolver lógica do componente *locais-rejeitar*
-- [ ] Criar service para comunicação com API
-- [ ] Criar mapeamento de rotas
+ - [ ] (0,1 Hora(s)) - Criar entidade *reservasEntity* (Domain)
+ - [ ] (0,2 Hora(s)) - Criar controller *reservasController* (API)
+ - [ ] (0,5 Hora(s)) - Criar classes de service, request e response (APPLICATION)
+ - [ ] (0,1 Hora(s)) - Configurar entidade no *AutoMapper* (API)
+ - [ ] (0,1 Hora(s)) - Configurar classes no *Ninject* (API)
+ - [ ] (0,2 Hora(s)) - Criar *Mapping* para configuração de tabela no banco de dados (DATA)
+ - [ ] (0,5 Hora(s)) - Criar repository *ReservasRepository* (DATA)
+ - [ ] (0,5 Hora(s)) - Criar validation
+ - [ ] (0,2 Hora(s)) - Globalizar textos
 
-## TESTES UNITÁRIOS
+**FRONTEND**  (10,1 Hora(s))
 
-**BACKEND**
+- [ ] (0,2 Hora(s)) - Criar novo componente *locais-reservar.component*
+- [ ] (0,5 Hora(s)) - Desenvolver template HTML+CSS para *locais-reservar*
+- [ ] (1 Hora(s)) - Desenvolver lógica do componente *locais-reservar*
+- [ ] (0,2 Hora(s)) - Criar novo componente *reservas-consultar.component*
+- [ ] (0,2 Hora(s)) - Desenvolver template HTML+CSS para *locais-consultar*
+- [ ] (0,3 Hora(s)) - Desenvolver lógica do componente *locais-consultar*
+- [ ] (0,2 Hora(s)) - Criar novo componente *locais-detalhar.component*
+- [ ] (0,2 Hora(s)) - Desenvolver template HTML+CSS para *locais-detalhar*
+- [ ] (0,3 Hora(s)) - Desenvolver lógica do componente *locais-detalhar*
+- [ ] (0,2 Hora(s)) - Criar novo componente *locais-pagar.component*
+- [ ] (0,5 Hora(s)) - Desenvolver template HTML+CSS para *locais-pagar*
+- [ ] (1 Hora(s)) - (0,1 Hora(s)) - Desenvolver lógica do componente *locais-pagar*
+- [ ] (0,2 Hora(s)) - Criar novo componente *locais-aprovar.component*
+- [ ] (0,5 Hora(s)) - Desenvolver template HTML+CSS para *locais-aprovar*
+- [ ] (0,5 Hora(s)) - Desenvolver lógica do componente *locais-aprovar*
+- [ ] (0,2 Hora(s)) - Criar novo componente *locais-rejeitar.component*
+- [ ] (0,5 Hora(s)) - Desenvolver template HTML+CSS para *locais-rejeitar*
+- [ ] (0,5 Hora(s)) - Desenvolver lógica do componente *locais-rejeitar*
+- [ ] (1 Hora(s)) - Criar service para comunicação com API
+- [ ] (0,2 Hora(s)) - Criar mapeamento de rotas
+- [ ] (2 Hora(s)) - Fazer integração com backend
 
- - [ ] Criar teste para specification de campos obrigatórios
- - [ ] Criar teste para specification de tamanho máximo de campo
- - [ ] Criar teste para specification de validação de CNPJ
- - [ ] Criar teste para specification de validação de CPF
- - [ ] Criar teste para specification de validação de Email
- - [ ] Criar teste para specification de validação de RG
- - [ ] Criar teste para specification de validação de Telefone
- - [ ] Criar teste para specification de validação de Imagens
- - [ ] Criar teste para specification de validação de intervalo de datas
- - [ ] Criar teste para specification de validação de intervalo de horários
- - [ ] Criar teste para api de envio de email
- - [ ] Criar teste para api de realização de pagamento
- - [ ] Criar testes para os métodos da controller Usuario (API)
- - [ ] Criar testes para os métodos da controller Locais (API)
- - [ ] Criar testes para os métodos da controller Reservas (API)
- - [ ] Criar testes para os métodos do service Usuario (API)
- - [ ] Criar testes para os métodos do service Locais (API)
- - [ ] Criar testes para os métodos do service Reservas (API)
- - [ ] Criar testes para os métodos do repository Usuario (API)
- - [ ] Criar testes para os métodos do repository Locais (API)
- - [ ] Criar testes para os métodos do repository Reservas (API)
- - [ ] Criar testes para o validation Usuario (API)
- - [ ] Criar testes para o validation Locais (API)
- - [ ] Criar testes para o validation Reservas (API)
+## TESTES UNITÁRIOS  (36 Hora(s))
 
-**FRONTEND**
+**BACKEND**  (12 Hora(s))
 
- - [ ] Criar teste para componente de exibição de mensagens na tela
- - [ ] Criar teste para componente de gerenciamento de eventos
- - [ ] Criar teste para *guard* de redirecionar de usuário logado às suas respectivas funcionalidades
- - [ ] Criar teste para *guard* de redirecionamento de usuário não logado para a tela de login
- - [ ] Criar teste para cabeçalho da aplicação com logo
- - [ ] Criar teste para máscara de CNPJ
- - [ ] Criar teste para máscara de CPF
- - [ ] Criar teste para máscara de Data
- - [ ] Criar teste para máscara de Números (cross browser)
- - [ ] Criar teste para máscara de RG
- - [ ] Criar teste para máscara de Telefone
- - [ ] Criar teste para máscara de Hora
- - [ ] Criar teste para pipe de Hora
- - [ ] Criar teste para serviço de gerenciamento de sessões de usuário
- - [ ] Criar teste para validação de CNPJ
- - [ ] Criar teste para validação de CPF
- - [ ] Criar teste para validação de E-mail (crossbworser)
- - [ ] Criar teste para validação de Senha
- - [ ] Criar teste para validação de senha igual à outro campo de senha
- - [ ] Criar teste para validação de RG
- - [ ] Criar teste para validação de Telefone
- - [ ] Criar teste para validação de Hora
- - [ ] Criar teste para validação de upload de imagens
- - [ ] Criar teste para validação de intervalo de datas
- - [ ] Criar teste para validação de intervalo de horários
- - [ ] Criar teste para componente de visualização e upload de imagem
- - [ ] Criar teste para componente de realização de pagamento
- - [ ] Criar teste para lazy loading de rotas
- - [ ] Criar teste para componente de globalização
- - [ ] Criar teste para os métodos do componente *start.component*
- - [ ] Criar teste para os métodos do componente *login.component*
- - [ ] Criar teste para os métodos do componente *cadastro.component*
- - [ ] Criar teste para os métodos do componente *recuperar-senha.component*
- - [ ] Criar teste para os métodos do componente *locais-consultar.component*
- - [ ] Criar teste para os métodos do componente *locais-criar.component*
- - [ ] Criar teste para os métodos do componente *locais-alterar.component*
- - [ ] Criar teste para os métodos do componente *locais-detalhar.component*
- - [ ] Criar teste para os métodos do componente *locais-excluir.component*
- - [ ] Criar teste para os métodos do componente *locais-detalhar.component*
- - [ ] Criar teste para os métodos do componente *profissionais-consultar.component*
- - [ ] Criar teste para os métodos do componente *profissionais-alterar.component*
- - [ ] Criar teste para os métodos do componente *profissionais-excluir.component*
- - [ ] Criar teste para os métodos do componente *profissionais-detalhar.component*
- - [ ] Criar teste para os métodos do componente *reservas-consultar.component*
- - [ ] Criar teste para os métodos do componente *reservas-detalhar.component*
- - [ ] Criar teste para os métodos do componente *reservas-pagar.component*
- - [ ] Criar teste para os métodos do componente *reservas-aprovar.component*
- - [ ] Criar teste para os métodos do componente *reservas-rejeitar.component*
+ - [ ] (0,5 Hora(s)) - Criar teste para specification de campos obrigatórios
+ - [ ] (0,5 Hora(s)) - Criar teste para specification de tamanho máximo de campo
+ - [ ] (0,5 Hora(s)) - Criar teste para specification de validação de CNPJ
+ - [ ] (0,5 Hora(s)) - Criar teste para specification de validação de CPF
+ - [ ] (0,5 Hora(s)) - Criar teste para specification de validação de Email
+ - [ ] (0,5 Hora(s)) - Criar teste para specification de validação de RG
+ - [ ] (0,5 Hora(s)) - Criar teste para specification de validação de Telefone
+ - [ ] (0,5 Hora(s)) - Criar teste para specification de validação de Imagens
+ - [ ] (0,5 Hora(s)) - Criar teste para specification de validação de intervalo de datas
+ - [ ] (0,5 Hora(s)) - Criar teste para specification de validação de intervalo de horários
+ - [ ] (0,5 Hora(s)) - Criar teste para api de envio de email
+ - [ ] (0,5 Hora(s)) - Criar teste para api de realização de pagamento
+ - [ ] (0,5 Hora(s)) - Criar testes para os métodos da controller Usuario (API)
+ - [ ] (0,5 Hora(s)) - Criar testes para os métodos da controller Locais (API)
+ - [ ] (0,5 Hora(s)) - Criar testes para os métodos da controller Reservas (API)
+ - [ ] (0,5 Hora(s)) - Criar testes para os métodos do service Usuario (API)
+ - [ ] (0,5 Hora(s)) - Criar testes para os métodos do service Locais (API)
+ - [ ] (0,5 Hora(s)) - Criar testes para os métodos do service Reservas (API)
+ - [ ] (0,5 Hora(s)) - Criar testes para os métodos do repository Usuario (API)
+ - [ ] (0,5 Hora(s)) - Criar testes para os métodos do repository Locais (API)
+ - [ ] (0,5 Hora(s)) - Criar testes para os métodos do repository Reservas (API)
+ - [ ] (0,5 Hora(s)) - Criar testes para o validation Usuario (API)
+ - [ ] (0,5 Hora(s)) - Criar testes para o validation Locais (API)
+ - [ ] (0,5 Hora(s)) - Criar testes para o validation Reservas (API)
 
-## TESTES INTEGRADOS (implementação em DEV com protractor)
+**FRONTEND**  (24 Hora(s))
+
+ - [ ] (0,5 Hora(s)) - Criar teste para componente de exibição de mensagens na tela
+ - [ ] (0,5 Hora(s)) - Criar teste para componente de gerenciamento de eventos
+ - [ ] (0,5 Hora(s)) - Criar teste para *guard* de redirecionar de usuário logado às suas respectivas funcionalidades
+ - [ ] (0,5 Hora(s)) - Criar teste para *guard* de redirecionamento de usuário não logado para a tela de login
+ - [ ] (0,5 Hora(s)) - Criar teste para cabeçalho da aplicação com logo
+ - [ ] (0,5 Hora(s)) - Criar teste para máscara de CNPJ
+ - [ ] (0,5 Hora(s)) - Criar teste para máscara de CPF
+ - [ ] (0,5 Hora(s)) - Criar teste para máscara de Data
+ - [ ] (0,5 Hora(s)) - Criar teste para máscara de Números (cross browser)
+ - [ ] (0,5 Hora(s)) - Criar teste para máscara de RG
+ - [ ] (0,5 Hora(s)) - Criar teste para máscara de Telefone
+ - [ ] (0,5 Hora(s)) - Criar teste para máscara de Hora
+ - [ ] (0,5 Hora(s)) - Criar teste para pipe de Hora
+ - [ ] (0,5 Hora(s)) - Criar teste para serviço de gerenciamento de sessões de usuário
+ - [ ] (0,5 Hora(s)) - Criar teste para validação de CNPJ
+ - [ ] (0,5 Hora(s)) - Criar teste para validação de CPF
+ - [ ] (0,5 Hora(s)) - Criar teste para validação de E-mail (crossbworser)
+ - [ ] (0,5 Hora(s)) - Criar teste para validação de Senha
+ - [ ] (0,5 Hora(s)) - Criar teste para validação de senha igual à outro campo de senha
+ - [ ] (0,5 Hora(s)) - Criar teste para validação de RG
+ - [ ] (0,5 Hora(s)) - Criar teste para validação de Telefone
+ - [ ] (0,5 Hora(s)) - Criar teste para validação de Hora
+ - [ ] (0,5 Hora(s)) - Criar teste para validação de upload de imagens
+ - [ ] (0,5 Hora(s)) - Criar teste para validação de intervalo de datas
+ - [ ] (0,5 Hora(s)) - Criar teste para validação de intervalo de horários
+ - [ ] (0,5 Hora(s)) - Criar teste para componente de visualização e upload de imagem
+ - [ ] (0,5 Hora(s)) - Criar teste para componente de realização de pagamento
+ - [ ] (0,5 Hora(s)) - Criar teste para lazy loading de rotas
+ - [ ] (0,5 Hora(s)) - Criar teste para componente de globalização
+ - [ ] (0,5 Hora(s)) - Criar teste para os métodos do componente *start.component*
+ - [ ] (0,5 Hora(s)) - Criar teste para os métodos do componente *login.component*
+ - [ ] (0,5 Hora(s)) - Criar teste para os métodos do componente *cadastro.component*
+ - [ ] (0,5 Hora(s)) - Criar teste para os métodos do componente *recuperar-senha.component*
+ - [ ] (0,5 Hora(s)) - Criar teste para os métodos do componente *locais-consultar.component*
+ - [ ] (0,5 Hora(s)) - Criar teste para os métodos do componente *locais-criar.component*
+ - [ ] (0,5 Hora(s)) - Criar teste para os métodos do componente *locais-alterar.component*
+ - [ ] (0,5 Hora(s)) - (2 Hora(s)) - Criar teste para os métodos do componente *locais-detalhar.component*
+ - [ ] (0,5 Hora(s)) - Criar teste para os métodos do componente *locais-excluir.component*
+ - [ ] (0,5 Hora(s)) - Criar teste para os métodos do componente *locais-detalhar.component*
+ - [ ] (0,5 Hora(s)) - Criar teste para os métodos do componente *profissionais-consultar.component*
+ - [ ] (0,5 Hora(s)) - Criar teste para os métodos do componente *profissionais-alterar.component*
+ - [ ] (0,5 Hora(s)) - Criar teste para os métodos do componente *profissionais-excluir.component*
+ - [ ] (0,5 Hora(s)) - Criar teste para os métodos do componente *profissionais-detalhar.component*
+ - [ ] (0,5 Hora(s)) - Criar teste para os métodos do componente *reservas-consultar.component*
+ - [ ] (0,5 Hora(s)) - Criar teste para os métodos do componente *reservas-detalhar.component*
+ - [ ] (0,5 Hora(s)) - Criar teste para os métodos do componente *reservas-pagar.component*
+ - [ ] (0,5 Hora(s)) - Criar teste para os métodos do componente *reservas-aprovar.component*
+ - [ ] (0,5 Hora(s)) - Criar teste para os métodos do componente *reservas-rejeitar.component*
+
+## TESTES INTEGRADOS (implementação em DEV com protractor)  (?? Hora(s))
 **Não contemplam testes funcionais executados por analistas**
 
  - [ ] Criar teste para o caso de uso: *O usuário deve conseguir acessar a tela de login de administrador pela tela inicial*
