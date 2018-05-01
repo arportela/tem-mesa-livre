@@ -3,7 +3,7 @@ Aplicativo para reserva de mesas, cadeiras e lounges para profissionais nômades
 
 Lista de documentos:
 
-- Observações e dúvidas: https://github.com/arportela/tem-mesa-livre/blob/master/QUESTIONS.md
+- Observações e dúvidas ao cliente/responsável técnico: https://github.com/arportela/tem-mesa-livre/blob/master/QUESTIONS.md
 
 - Tecnologias utilizadas: https://github.com/arportela/tem-mesa-livre/blob/master/ARCHITECTURE.md
 
