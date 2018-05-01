@@ -2,13 +2,13 @@
 
 |Nº|Entrega|Data|Status
 |---|---|---|---|
-|1|Documentação: Arquitetura, mapa de funcionalidades, lista de tarefas|04/05|Não entregue
-|2|Implementação da arquiterura e versionamento dos projetos no GitHub|04/05|Não entregue
-|3|Criação do ambiente na nuvem|04/05|Não entregue
-|4|Tela inicial|04/05|Não entregue
-|5|Tela de login para os tipos de usuários: Administrador, RH e Profissional sem validação no backend|04/05|Não entregue
-|6|Tela de cadastro para os tipos de usuários: Administrador, RH e Profissional sem validação no backend|04/05|Não entregue
-|7|Tela de recuperação de senha para os tipos de usuários: Administrador, RH e Profissional sem validação no backend|04/05|Não entregue
+|1|Documentação: Arquitetura, mapa de funcionalidades, lista de tarefas|01/05|Entregue
+|2|Implementação da arquiterura e versionamento dos projetos no GitHub|01/05|Entregue
+|3|Criação do ambiente na nuvem|01/05|Entregue
+|4|Tela inicial|01/05|Entregue
+|5|Tela de login para os tipos de usuários: Administrador, RH e Profissional sem validação no backend|01/05|Entregue
+|6|Tela de cadastro para os tipos de usuários: Administrador, RH e Profissional sem validação no backend|01/05|Entregue
+|7|Tela de recuperação de senha para os tipos de usuários: Administrador, RH e Profissional sem validação no backend|01/05|Entregue
 |8|Implantação retroativa de testes unitários para as funcionalidades já entregues (backend e front end)|11/05|Não entregue
 |9|Implantação retroativa de testes integrados para as funcionalidades já entregues (backend e front end)|11/05|Não entregue
 |10|Implantação retroativa das validações no backend|11/05|Não entregue
