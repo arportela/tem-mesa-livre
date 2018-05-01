@@ -1,4 +1,4 @@
-# CRONOGRAMA 24/04 - 30/05
+# CRONOGRAMA 24/04 - 22/06 (20 horas/semana)
 
 |Nº|Entrega|Data|Status
 |---|---|---|---|
