@@ -9,7 +9,7 @@
 |5|Tela de login para os tipos de usuários: Administrador, RH e Profissional sem validação no backend|04/05|Não entregue
 |6|Tela de cadastro para os tipos de usuários: Administrador, RH e Profissional sem validação no backend|04/05|Não entregue
 |7|Tela de recuperação de senha para os tipos de usuários: Administrador, RH e Profissional sem validação no backend|04/05|Não entregue
-|8|Implantação retroativa de testes unitários para as funcionalidades já entregues (backend e front end)|01/05|Não entregue
+|8|Implantação retroativa de testes unitários para as funcionalidades já entregues (backend e front end)|11/05|Não entregue
 |9|Implantação retroativa de testes integrados para as funcionalidades já entregues (backend e front end)|11/05|Não entregue
 |10|Implantação retroativa das validações no backend|11/05|Não entregue
 |11|Tela de consulta de locais com testes unitários e integrados|11/05|Não entregue
