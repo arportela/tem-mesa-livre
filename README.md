@@ -10,5 +10,3 @@ Lista de documentos:
 - Mapa das funcionalidades: https://github.com/arportela/tem-mesa-livre/blob/master/mapa%20de%20funcionalidades.pdf
 
 - Lista de tarefas: https://github.com/arportela/tem-mesa-livre/blob/master/TODO.md
-
-- Cronograma: https://github.com/arportela/tem-mesa-livre/blob/master/SCHEDULE.md
